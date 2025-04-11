@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Averyn-Map</title>
-        <base href="./" />
-        <meta id="root-path" root-path="./" />
+        <title>Pantheon</title>
+        <base href="../" />
+        <meta id="root-path" root-path="../" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0" />
         <meta charset="UTF-8" />
-        <meta name="description" content="Dragonlance - Averyn-Map" />
-        <meta property="og:title" content="Averyn-Map" />
-        <meta property="og:description" content="Dragonlance - Averyn-Map" />
+        <meta name="description" content="Estrian-Chronicles - Pantheon" />
+        <meta property="og:title" content="Pantheon" />
+        <meta property="og:description" content="Estrian-Chronicles - Pantheon" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="averyn-map.html" />
+        <meta property="og:url" content="important-lore/pantheon.html" />
         <meta property="og:image" content="undefined" />
-        <meta property="og:site_name" content="Dragonlance" />
+        <meta property="og:site_name" content="Estrian-Chronicles" />
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="leaflet-style.css" />
         <script async="" id="webpage-script" src="lib/scripts/webpage.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script>
-        <script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="pixi-script" src="lib/scripts/pixi.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <link rel="icon" href="lib/media/favicon.png" />
-        <script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <style>
             body {
                 --line-width: 40em;
@@ -313,17 +303,13 @@
             }
         </script>
         <link rel="stylesheet" href="lib/styles/obsidian.css" />
-        <link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/other-plugins.css" /></noscript>
         <link rel="stylesheet" href="lib/styles/theme.css" />
-        <link rel="preload" href="lib/styles/ansalon-characters.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/ansalon-characters.css" /></noscript>
-        <link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css" /></noscript>
+        <link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css" /></noscript>
         <link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="lib/styles/main-styles.css" /></noscript>
     </head>
-    <body class="publish css-settings-manager theme-light show-inline-title sizing-readable check-color check-bg wotc-beyond">
+    <body class="publish css-settings-manager theme-light show-inline-title show-ribbon check-color check-bg wotc-beyond">
         <script defer="">
             let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
             "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")),
@@ -355,13 +341,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="sidebar-content">
-                    <div class="search-input-container">
-                        <input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..." />
-                        <div class="search-input-clear-button" aria-label="Clear search"></div>
-                    </div>
-                    <include src="lib/html/file-tree.html"></include>
-                </div>
+                <div class="sidebar-content"><include src="lib/html/file-tree.html"></include></div>
                 <script defer="">
                     let ls = document.querySelector(".sidebar-left");
                     ls.classList.add("is-collapsed");
@@ -373,10 +353,81 @@
                 <div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width">
                     <style id="MJX-CHTML-styles"></style>
                     <div class="markdown-preview-sizer markdown-preview-section">
-                        <h1 class="page-title heading inline-title" id="Averyn-Map"><p>Averyn-Map</p></h1>
-                        <div id="map"></div>
-                        <script src="leaflet-script.js"></script>
-                        <div class="mod-footer"></div>
+                        <h1 class="page-title heading inline-title" id="Pantheon">Pantheon</h1>
+                        <div class="el-p">
+                            <p dir="auto">
+                                Religion in Estria provides another layer of depth and communal identity. Though each region may favor one deity over others, most accept a unified pantheon that spans from the simplest farmstead to the
+                                highest royal court.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Arhel, the Lawgiver (Order)</strong> stands for social stability, justice, and the careful weighing of scales. Magistrates and city guards who revere Arhel see themselves as stewards of divine law,
+                                defending the innocent and meting out punishment for wrongdoers. Conflict often arises between Arhel’s ironclad strictures and Orathal’s celebration of chaos.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Balnis, the Grim Watcher (Grave, Death)</strong> keeps the final vigil, guiding souls beyond the mortal veil and safeguarding the world against undead abominations. Somber ceremonies honor the lives
+                                of the fallen, whether knights on a battlefield or a villager lost to sickness. Tieflings—often shunned—find acceptance in Balnis’s impartial gaze, as their mortal deeds weigh more than their infernal
+                                heritage.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Dalurus, the Dawn’s Light (Light)</strong> provides hope and renewal at every sunrise. Humans and Tabaxi alike say morning prayers to Dalurus for blessings of warmth, clarity, and the banishment of
+                                darkness. His priests sometimes stand as the first line of defense against nocturnal horrors.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Ethyri, the Twilight Guardian (Twilight)</strong> guides those between day and night, watchers at dusk, and protectors of travelers against hidden threats. Firbolgs, who dwell in woodland twilight,
+                                offer Ethyri their quiet supplications. Lantern-light ceremonies at the shifting of day into night signify Ethyri’s blessing.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Kharvos, the Warbringer (War)</strong> stands for martial prowess, discipline, and the fires of conflict that test one’s mettle. Half-orcs and dwarves often fight under Kharvos’s banner, revering
+                                honor gained through trial by combat. Though seen as violent by many, his code also insists on a sense of valor and fairness in the art of war.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Lysa, the Harvest Mother (Life, Nature)</strong> is universally revered for blessing crops and ensuring prosperity. Her worship is strong in farming communities like Valith, where festivals honor the
+                                planting and harvesting cycles. The gentle façade of her temples, however, can mask secretive or even illicit activities, such as the Thieves’ Guild that operates beneath the Temple of Lysa in Valith.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Maralon, the All-Seeing Sage (Knowledge, Arcana)</strong> presides over hidden lore and ancient arcane secrets. Elves and scholars seek his guidance in uncovering relics of the Camden Empire.
+                                Libraries dedicated to Maralon are considered neutral ground, their stacks brimming with knowledge both illuminating and dangerous.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Myria, the Peaceweaver (Peace, Life)</strong> champions reconciliation and diplomatic resolution, seeking to mend the wounds caused by constant warfare. Ceremonies in her name feature burnt offerings
+                                of written grievances, symbolizing the release of old grudges. Myria’s priests often accompany armies not to wage war but to offer healing or broker truces.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Nimara, the Storm Queen (Tempest)</strong> embodies the fury of storms and the cleansing power of rain. Dragonborn, moved by her raw elemental might, are among her most fervent worshipers. Coastal
+                                towns host rituals on sea cliffs, casting offerings to the thunderous winds in hopes of either tempering or unleashing nature’s wrath.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Orathal, the Laughing Shadow (Trickery)</strong> delights in mischief and blurred lines between truth and illusion. Rogues, bards, and changelings invoke Orathal for cunning schemes and quick escapes.
+                                Public festivals of Orathal can be raucous and chaotic, testing the patience of more lawful deities’ devotees.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Thurim, the Ironheart (Forge)</strong> is patron to smiths, builders, and any who reshape the world with hammer and anvil. Dwarves build vast forges in his name, lighting the darkness of mountain
+                                halls with molten metal. Gnomes, too, celebrate Thurim’s emphasis on creativity, fusing mechanical brilliance with devout reverence.
+                            </p>
+                        </div>
+                        <div class="mod-footer mod-ui"></div>
                     </div>
                 </div>
             </div>
@@ -405,8 +456,8 @@
                         <div class="tree-scroll-area tree-item-children nav-folder-children">
                             <div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div>
                             <div class="tree-item" data-depth="1">
-                                <a class="tree-link" href="averyn-map.html#Averyn-Map">
-                                    <div class="tree-item-contents heading-link" heading-name="Averyn-Map"><span class="tree-item-title">Averyn-Map</span></div>
+                                <a class="tree-link" href="important-lore/pantheon.html#Pantheon">
+                                    <div class="tree-item-contents heading-link" heading-name="Pantheon"><span class="tree-item-title">Pantheon</span></div>
                                 </a>
                                 <div class="tree-item-children nav-folder-children"></div>
                             </div>

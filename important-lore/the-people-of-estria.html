@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Averyn-Map</title>
-        <base href="./" />
-        <meta id="root-path" root-path="./" />
+        <title>The People of Estria</title>
+        <base href="../" />
+        <meta id="root-path" root-path="../" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0" />
         <meta charset="UTF-8" />
-        <meta name="description" content="Dragonlance - Averyn-Map" />
-        <meta property="og:title" content="Averyn-Map" />
-        <meta property="og:description" content="Dragonlance - Averyn-Map" />
+        <meta name="description" content="Estrian-Chronicles - The People of Estria" />
+        <meta property="og:title" content="The People of Estria" />
+        <meta property="og:description" content="Estrian-Chronicles - The People of Estria" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="averyn-map.html" />
+        <meta property="og:url" content="important-lore/the-people-of-estria.html" />
         <meta property="og:image" content="undefined" />
-        <meta property="og:site_name" content="Dragonlance" />
+        <meta property="og:site_name" content="Estrian-Chronicles" />
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="leaflet-style.css" />
         <script async="" id="webpage-script" src="lib/scripts/webpage.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script>
-        <script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="pixi-script" src="lib/scripts/pixi.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <link rel="icon" href="lib/media/favicon.png" />
-        <script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <style>
             body {
                 --line-width: 40em;
@@ -313,17 +303,13 @@
             }
         </script>
         <link rel="stylesheet" href="lib/styles/obsidian.css" />
-        <link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/other-plugins.css" /></noscript>
         <link rel="stylesheet" href="lib/styles/theme.css" />
-        <link rel="preload" href="lib/styles/ansalon-characters.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/ansalon-characters.css" /></noscript>
-        <link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css" /></noscript>
+        <link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css" /></noscript>
         <link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="lib/styles/main-styles.css" /></noscript>
     </head>
-    <body class="publish css-settings-manager theme-light show-inline-title sizing-readable check-color check-bg wotc-beyond">
+    <body class="publish css-settings-manager theme-light show-inline-title show-ribbon check-color check-bg wotc-beyond">
         <script defer="">
             let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
             "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")),
@@ -355,13 +341,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="sidebar-content">
-                    <div class="search-input-container">
-                        <input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..." />
-                        <div class="search-input-clear-button" aria-label="Clear search"></div>
-                    </div>
-                    <include src="lib/html/file-tree.html"></include>
-                </div>
+                <div class="sidebar-content"><include src="lib/html/file-tree.html"></include></div>
                 <script defer="">
                     let ls = document.querySelector(".sidebar-left");
                     ls.classList.add("is-collapsed");
@@ -373,10 +353,100 @@
                 <div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width">
                     <style id="MJX-CHTML-styles"></style>
                     <div class="markdown-preview-sizer markdown-preview-section">
-                        <h1 class="page-title heading inline-title" id="Averyn-Map"><p>Averyn-Map</p></h1>
-                        <div id="map"></div>
-                        <script src="leaflet-script.js"></script>
-                        <div class="mod-footer"></div>
+                        <h1 class="page-title heading inline-title" id="The People of Estria">The People of Estria</h1>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Humans</strong> in Estria are as varied as the terrain they inhabit—ranging from bustling urbanites in the grand capital of Aldamar to rustic farmers tending the golden fields around Valith. Generally
+                                adaptable, Humans find it easy to coexist with other races who share their settlements. They are often devout in their worship, choosing gods that meet practical needs at any given time: they might pray to
+                                Lysa for a bountiful harvest one day and call on Arhel for justice the next. Culturally, Humans value initiative, ambition, and personal freedom, traits that reflect in everything from their stories to their
+                                politics. They have a penchant for forming large families or clans, which helps foster community networks that extend over generations and across regions.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Elves</strong> have centuries of oral and written tradition tracing back to the era of the Camden Empire, making them renowned guardians of knowledge and lore. Many revere Maralon, the All-Seeing
+                                Sage, seeking guidance in preserving and rediscovering arcane secrets. Elven communities tend to be close-knit, emphasizing respect for ancient customs, nature, and the flow of magic in the world. However,
+                                they are far from isolationist; Elves frequently trade ideas with Gnomes, goods with Humans, and stories with Halflings, finding in them a shared enthusiasm for peaceful coexistence. Artistic pursuits—poetry,
+                                music, calligraphy, and sculpture—are woven into everyday life, reinforcing a cultural identity that prizes beauty, memory, and scholarship.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Half-Elves</strong> stand at the crossroads of Human and Elven heritage. This duality can bring an adaptability that matches Humans’ drive and an appreciation for tradition reminiscent of Elves. In
+                                many towns and cities, Half-Elves fill roles as ambassadors, translators, or cultural liaisons, bridging gaps between the more insular enclaves of Elves and the bustling domains of Humans. While some
+                                Half-Elves gravitate toward large mixed-race settlements, others immerse themselves fully in either Human or Elven society. Regardless of preference, most strive to harmonize the best elements of both worlds.
+                                Though they may occasionally feel like outsiders in either culture, their dual lineage often fosters empathy and diplomacy.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Gnomes</strong> are beloved for their inventive spirit and infectious curiosity. From miniature windmills in rural farmlands to arcane contraptions in major city workshops, their knack for technology
+                                and tinkering dazzles neighbors. Culturally, Gnomes hold to the belief that no discovery is too small to celebrate—an outlook that lends them a buoyant sense of optimism. Many are devout followers of Maralon
+                                (for knowledge and arcana) or Thurim (for the love of craftsmanship). Gnome communities welcome visitors with open arms, eager to swap tales and show off their latest inventions. While they mingle freely with
+                                other races, many prefer living among fellow Gnomes who share their passion for invention, ensuring that squeals of delight and the hum of small machinery are constant backdrops to daily life.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Halflings</strong> hold a reputation for warmth, hospitality, and strong communal bonds. Their villages are often rife with shared meals, raucous laughter, and leisurely evenings around a hearth.
+                                Reverence for Lysa is common, as Halflings enjoy tying their well-being to the rhythms of farmland and family gatherings. This love of comfort and neighborly trust extends even into cities, where Halfling
+                                neighborhoods may feel like miniature pastoral enclaves. While Halflings rarely seek adventure, they nonetheless adapt gracefully if it finds them. Their small stature often conceals a keen intellect and a
+                                knack for resourcefulness, making them fine traveling companions and shrewd negotiators.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Half-Orcs</strong> are not necessarily disliked, but they exist on the fringe of popular society, tending to live in marginalized settlements or work as hired muscle in Aldamar’s frontier regions.
+                                Many revere Kharvos, valuing strength, discipline, and the forging of personal honor in a world that too often casts them aside. Villages near Half-Orc encampments might trade or cooperate in shared tasks
+                                like hunting or road-guarding, but formal alliances are rare and often uneasy. The result is that outsiders typically deal with Half-Orcs only when necessity compels them, leaving Half-Orcs less integrated
+                                into Aldamar’s mainstream culture. Despite these hurdles, Half-Orcs possess strong kinship networks; extended families often work together for mutual support, carving out places for themselves in an otherwise
+                                wary society.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Dragonborn</strong> clans or enclaves are relatively insular, bound by tradition, ancestral honor, and sometimes by the element linked to their draconic lineage. They keep tight-knit communities in
+                                secluded areas—rocky highlands, coastal cliffs near Nimara’s storms, or even mountain fortresses. While their imposing presence can inspire awe or anxiety among other races, most Dragonborn are respected for
+                                their integrity and formidable sense of justice. Steeped in warrior culture, they also incorporate strict codes of courtesy and hospitality. Many Dragonborn feel drawn to Nimara, the Storm Queen, or Kharvos,
+                                the Warbringer, channeling draconic might into unwavering devotion to one of these deities. Others devote themselves to Thurim, balancing physical and spiritual forging within a culture that prizes
+                                disciplined excellence.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Tabaxi</strong> typically form small, nomadic groups that follow trade routes, forest paths, and hidden mountain passes, driven by wanderlust and curiosity. They maintain ties to distant homelands or
+                                isolated villages where fellow Tabaxi convene to share tales of their travels. A sense of freedom pervades their culture, from artful dance to storytelling traditions that revolve around personal discovery
+                                and cunning. Though accepted by other races, Tabaxi often prefer the company of those who share their sense of adventure. When Tabaxi do settle among Humans or Elves, they bring along their penchant for
+                                commerce, exotic goods, and an almost feline penchant for mischief and unpredictability—often finding kinship with Orathal’s worshipers in bigger cities.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Firbolgs</strong> tend to dwell in remote woodland enclaves, living in harmony with nature. Their society values community, humility, and stewardship of the forest. Firbolgs who wander closer to
+                                mainstream settlements typically maintain a reserved presence, soft-spoken in conversation and careful not to upset local customs. They favor deities like Lysa and Ethyri, believing that life’s natural cycles
+                                and the balance of twilight hours mirror their own relationship with the world. While they maintain cordial relations with other races, Firbolgs often feel more comfortable in small, self-sustaining
+                                communities where the bustle of society and politics is kept at arm’s length.
+                            </p>
+                        </div>
+                        <div class="el-p"><p dir="auto">&nbsp;</p></div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Changelings</strong> are rarely recognized as such, which is partly by design. Scattered throughout cities and rural settlements alike, they blend in by adopting ordinary guises. Their culture, if it
+                                can be called that, is one of quiet adaptation, a continual dance of survival and self-expression. Some Changelings use their shapeshifting ability to slip into roles where they can observe or manipulate
+                                events—a potential asset to thieves or spies—while others yearn for stable identities and communities that accept them for who (and what) they are. Fear of being exposed often guides their day-to-day
+                                interactions, but in private gatherings, Changelings share stories of identity, freedom, and ways to co-exist peacefully with unsuspecting neighbors.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                <strong>Tieflings</strong> suffer the heaviest social stigma of any common race in Estria. Their infernal heritage marks them as outcasts, leading most folk to avoid them outright—some even crossing the
+                                street or taking a longer route to avoid close proximity. This deep-seated wariness drives Tieflings into tight-knit enclaves or leaves them roaming as nomads, wary of where they’re truly safe. Many find
+                                comfort in the worship of Balnis, the Grim Watcher, recognizing that their deeds, not their bloodline, should determine their fate in the afterlife. Still, distrust weighs heavily on them, and bitterness can
+                                fester in communities where tieflings feel perpetually ostracized. A few attempt to hide physical signs of their lineage, using cloaks, hoods, or illusions, but most come to terms with being haunted by
+                                others’ suspicions and try to carve out a life despite the scorn directed their way.
+                            </p>
+                        </div>
+                        <div class="mod-footer mod-ui"></div>
                     </div>
                 </div>
             </div>
@@ -405,8 +475,8 @@
                         <div class="tree-scroll-area tree-item-children nav-folder-children">
                             <div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div>
                             <div class="tree-item" data-depth="1">
-                                <a class="tree-link" href="averyn-map.html#Averyn-Map">
-                                    <div class="tree-item-contents heading-link" heading-name="Averyn-Map"><span class="tree-item-title">Averyn-Map</span></div>
+                                <a class="tree-link" href="important-lore/the-people-of-estria.html#The People of Estria">
+                                    <div class="tree-item-contents heading-link" heading-name="The People of Estria"><span class="tree-item-title">The People of Estria</span></div>
                                 </a>
                                 <div class="tree-item-children nav-folder-children"></div>
                             </div>

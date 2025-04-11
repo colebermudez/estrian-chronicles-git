@@ -1,3 +1,852 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Estrian-Chronicles]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Estrian-Chronicles</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 11 Apr 2025 15:06:54 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 11 Apr 2025 15:06:54 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Averyn Map]]></title><description><![CDATA[ 
- <br><img class="leaflet-image-layer leaflet-zoom-animated" src="averyn-map-2.png" alt="" style="z-index: 1; transform: translate3d(410px, -41px, 0px); width: 1024px; height: 683px;"><a class="leaflet-control-zoom-in" href="about:blank#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="about:blank#" title="Zoom out" role="button" aria-label="Zoom out">−</a><a class="leaflet-control-fullscreen-button leaflet-bar-part" href="about:blank#" title="View Fullscreen" aria-label="Toggle Full Screen"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="expand" class="svg-inline--fa fa-expand fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z"></path></svg></a><a class="leaflet-control-zoom-markers-icon" href="about:blank#" aria-label="Show All Markers"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marked-alt" class="svg-inline--fa fa-map-marked-alt fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></a><a class="leaflet-control-reset-zoom-icon" href="about:blank#"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bullseye" class="svg-inline--fa fa-bullseye fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 432c-101.69 0-184-82.29-184-184 0-101.69 82.29-184 184-184 101.69 0 184 82.29 184 184 0 101.69-82.29 184-184 184zm0-312c-70.69 0-128 57.31-128 128s57.31 128 128 128 128-57.31 128-128-57.31-128-128-128zm0 192c-35.29 0-64-28.71-64-64s28.71-64 64-64 64 28.71 64 64-28.71 64-64 64z"></path></svg></a><a class="leaflet-control-expandable-icon" href="about:blank#" aria-label="Filter Markers" data-draggable="false"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="filter" class="svg-inline--fa fa-filter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z"></path></svg></a><a class="leaflet-control-lock-icon" href="about:blank#" aria-label="Lock Map"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="unlock" class="svg-inline--fa fa-unlock fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path></svg></a>0 feet  <a class="leaflet-control-expandable-icon" href="about:blank#" aria-label="Draw" data-draggable="false"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shapes" class="svg-inline--fa fa-shapes fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M128,256A128,128,0,1,0,256,384,128,128,0,0,0,128,256Zm379-54.86L400.07,18.29a37.26,37.26,0,0,0-64.14,0L229,201.14C214.76,225.52,232.58,256,261.09,256H474.91C503.42,256,521.24,225.52,507,201.14ZM480,288H320a32,32,0,0,0-32,32V480a32,32,0,0,0,32,32H480a32,32,0,0,0,32-32V320A32,32,0,0,0,480,288Z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-polygon-icon" href="about:blank#" aria-label="Polygon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="draw-polygon" class="svg-inline--fa fa-draw-polygon fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M384 352c-.35 0-.67.1-1.02.1l-39.2-65.32c5.07-9.17 8.22-19.56 8.22-30.78s-3.14-21.61-8.22-30.78l39.2-65.32c.35.01.67.1 1.02.1 35.35 0 64-28.65 64-64s-28.65-64-64-64c-23.63 0-44.04 12.95-55.12 32H119.12C108.04 44.95 87.63 32 64 32 28.65 32 0 60.65 0 96c0 23.63 12.95 44.04 32 55.12v209.75C12.95 371.96 0 392.37 0 416c0 35.35 28.65 64 64 64 23.63 0 44.04-12.95 55.12-32h209.75c11.09 19.05 31.49 32 55.12 32 35.35 0 64-28.65 64-64 .01-35.35-28.64-64-63.99-64zm-288 8.88V151.12A63.825 63.825 0 0 0 119.12 128h208.36l-38.46 64.1c-.35-.01-.67-.1-1.02-.1-35.35 0-64 28.65-64 64s28.65 64 64 64c.35 0 .67-.1 1.02-.1l38.46 64.1H119.12A63.748 63.748 0 0 0 96 360.88zM272 256c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16-16-7.18-16-16zM400 96c0 8.82-7.18 16-16 16s-16-7.18-16-16 7.18-16 16-16 16 7.18 16 16zM64 80c8.82 0 16 7.18 16 16s-7.18 16-16 16-16-7.18-16-16 7.18-16 16-16zM48 416c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16-16-7.18-16-16zm336 16c-8.82 0-16-7.18-16-16s7.18-16 16-16 16 7.18 16 16-7.18 16-16 16z"></path></svg></a><a class="leaflet-control-complete-icon" href="about:blank#" aria-label="Finish"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></a><a class="leaflet-control-undo-icon" href="about:blank#" aria-label="Undo"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="undo-alt" class="svg-inline--fa fa-undo-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M255.545 8c-66.269.119-126.438 26.233-170.86 68.685L48.971 40.971C33.851 25.851 8 36.559 8 57.941V192c0 13.255 10.745 24 24 24h134.059c21.382 0 32.09-25.851 16.971-40.971l-41.75-41.75c30.864-28.899 70.801-44.907 113.23-45.273 92.398-.798 170.283 73.977 169.484 169.442C423.236 348.009 349.816 424 256 424c-41.127 0-79.997-14.678-110.63-41.556-4.743-4.161-11.906-3.908-16.368.553L89.34 422.659c-4.872 4.872-4.631 12.815.482 17.433C133.798 479.813 192.074 504 256 504c136.966 0 247.999-111.033 248-247.998C504.001 119.193 392.354 7.755 255.545 8z"></path></svg></a><a class="leaflet-control-cancel-icon" href="about:blank#" aria-label="Cancel"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" class="svg-inline--fa fa-times-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-rectangle-icon" href="about:blank#" aria-label="Rectangle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="vector-square" class="svg-inline--fa fa-vector-square fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 128V32c0-17.67-14.33-32-32-32h-96c-17.67 0-32 14.33-32 32H160c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v96c0 17.67 14.33 32 32 32v192c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32h192c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32V160c17.67 0 32-14.33 32-32zm-96-64h32v32h-32V64zM64 64h32v32H64V64zm32 384H64v-32h32v32zm352 0h-32v-32h32v32zm-32-96h-32c-17.67 0-32 14.33-32 32v32H160v-32c0-17.67-14.33-32-32-32H96V160h32c17.67 0 32-14.33 32-32V96h192v32c0 17.67 14.33 32 32 32h32v192z"></path></svg></a><a class="leaflet-control-undo-icon" href="about:blank#" aria-label="Undo"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="undo-alt" class="svg-inline--fa fa-undo-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M255.545 8c-66.269.119-126.438 26.233-170.86 68.685L48.971 40.971C33.851 25.851 8 36.559 8 57.941V192c0 13.255 10.745 24 24 24h134.059c21.382 0 32.09-25.851 16.971-40.971l-41.75-41.75c30.864-28.899 70.801-44.907 113.23-45.273 92.398-.798 170.283 73.977 169.484 169.442C423.236 348.009 349.816 424 256 424c-41.127 0-79.997-14.678-110.63-41.556-4.743-4.161-11.906-3.908-16.368.553L89.34 422.659c-4.872 4.872-4.631 12.815.482 17.433C133.798 479.813 192.074 504 256 504c136.966 0 247.999-111.033 248-247.998C504.001 119.193 392.354 7.755 255.545 8z"></path></svg></a><a class="leaflet-control-cancel-icon" href="about:blank#" aria-label="Cancel"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" class="svg-inline--fa fa-times-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-polyline-icon" href="about:blank#" aria-label="Polyline"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" class="svg-inline--fa fa-project-diagram fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg></a><a class="leaflet-control-complete-icon" href="about:blank#" aria-label="Finish"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></a><a class="leaflet-control-arrow-icon" href="about:blank#" aria-label="Add Arrows to Line"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up" class="svg-inline--fa fa-arrow-up fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></a><a class="leaflet-control-undo-icon" href="about:blank#" aria-label="Undo"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="undo-alt" class="svg-inline--fa fa-undo-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M255.545 8c-66.269.119-126.438 26.233-170.86 68.685L48.971 40.971C33.851 25.851 8 36.559 8 57.941V192c0 13.255 10.745 24 24 24h134.059c21.382 0 32.09-25.851 16.971-40.971l-41.75-41.75c30.864-28.899 70.801-44.907 113.23-45.273 92.398-.798 170.283 73.977 169.484 169.442C423.236 348.009 349.816 424 256 424c-41.127 0-79.997-14.678-110.63-41.556-4.743-4.161-11.906-3.908-16.368.553L89.34 422.659c-4.872 4.872-4.631 12.815.482 17.433C133.798 479.813 192.074 504 256 504c136.966 0 247.999-111.033 248-247.998C504.001 119.193 392.354 7.755 255.545 8z"></path></svg></a><a class="leaflet-control-cancel-icon" href="about:blank#" aria-label="Cancel"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" class="svg-inline--fa fa-times-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-paint-icon" href="about:blank#" aria-label="Color" style="color: #3388FF"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fa fa-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></a><a class="leaflet-control-fill-color-icon" href="about:blank#" aria-label="Fill Color"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="fill-drip" class="svg-inline--fa fa-fill-drip fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M512 320s-64 92.65-64 128c0 35.35 28.66 64 64 64s64-28.65 64-64-64-128-64-128zm-9.37-102.94L294.94 9.37C288.69 3.12 280.5 0 272.31 0s-16.38 3.12-22.62 9.37l-81.58 81.58L81.93 4.76c-6.25-6.25-16.38-6.25-22.62 0L36.69 27.38c-6.24 6.25-6.24 16.38 0 22.62l86.19 86.18-94.76 94.76c-37.49 37.48-37.49 98.26 0 135.75l117.19 117.19c18.74 18.74 43.31 28.12 67.87 28.12 24.57 0 49.13-9.37 67.87-28.12l221.57-221.57c12.5-12.5 12.5-32.75.01-45.25zm-116.22 70.97H65.93c1.36-3.84 3.57-7.98 7.43-11.83l13.15-13.15 81.61-81.61 58.6 58.6c12.49 12.49 32.75 12.49 45.24 0s12.49-32.75 0-45.24l-58.6-58.6 58.95-58.95 162.44 162.44-48.34 48.34z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-palette-icon" href="about:blank#" aria-label="Color"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class="svg-inline--fa fa-palette fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-drag-icon" href="about:blank#" aria-label="Move Shapes"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrows-alt" class="svg-inline--fa fa-arrows-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M352.201 425.775l-79.196 79.196c-9.373 9.373-24.568 9.373-33.941 0l-79.196-79.196c-15.119-15.119-4.411-40.971 16.971-40.97h51.162L228 284H127.196v51.162c0 21.382-25.851 32.09-40.971 16.971L7.029 272.937c-9.373-9.373-9.373-24.569 0-33.941L86.225 159.8c15.119-15.119 40.971-4.411 40.971 16.971V228H228V127.196h-51.23c-21.382 0-32.09-25.851-16.971-40.971l79.196-79.196c9.373-9.373 24.568-9.373 33.941 0l79.196 79.196c15.119 15.119 4.411 40.971-16.971 40.971h-51.162V228h100.804v-51.162c0-21.382 25.851-32.09 40.97-16.971l79.196 79.196c9.373 9.373 9.373 24.569 0 33.941L425.773 352.2c-15.119 15.119-40.971 4.411-40.97-16.971V284H284v100.804h51.23c21.382 0 32.09 25.851 16.971 40.971z"></path></svg></a><a class="leaflet-control-complete-icon" href="about:blank#" aria-label="Finish"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-draw-trash-icon" href="about:blank#" aria-label="Delete Shapes"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="trash" class="svg-inline--fa fa-trash fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"></path></svg></a><a class="leaflet-control-complete-icon" href="about:blank#" aria-label="Finish"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></a><a class="leaflet-control-has-actions leaflet-control-save-icon" href="about:blank#" aria-label="Export Drawing to GeoJSON"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="save" class="svg-inline--fa fa-save fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433.941 129.941l-83.882-83.882A48 48 0 0 0 316.118 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V163.882a48 48 0 0 0-14.059-33.941zM224 416c-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64zm96-304.52V212c0 6.627-5.373 12-12 12H76c-6.627 0-12-5.373-12-12V108c0-6.627 5.373-12 12-12h228.52c3.183 0 6.235 1.264 8.485 3.515l3.48 3.48A11.996 11.996 0 0 1 320 111.48z"></path></svg></a><a class="leaflet-control-draw-done-icon" href="about:blank#" aria-label="Done"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg></a><a class="leaflet-control-save-param-icon" href="about:blank#" aria-label="Save Parameters to View"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="save" class="svg-inline--fa fa-save fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433.941 129.941l-83.882-83.882A48 48 0 0 0 316.118 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V163.882a48 48 0 0 0-14.059-33.941zM224 416c-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64zm96-304.52V212c0 6.627-5.373 12-12 12H76c-6.627 0-12-5.373-12-12V108c0-6.627 5.373-12 12-12h228.52c3.183 0 6.235 1.264 8.485 3.515l3.48 3.48A11.996 11.996 0 0 1 320 111.48z"></path></svg></a><a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>]]></description><link>averyn-map.html</link><guid isPermaLink="false">Averyn Map.md</guid><pubDate>Fri, 11 Apr 2025 03:48:36 GMT</pubDate><enclosure url="averyn-map-2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="averyn-map-2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Welcome to Estria]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Estrian-Chronicles]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Estrian-Chronicles</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 11 Apr 2025 16:14:37 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 11 Apr 2025 16:14:36 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Pantheon]]></title><description><![CDATA[ 
+ <br>Religion in Estria provides another layer of depth and communal identity. Though each region may favor one deity over others, most accept a unified pantheon that spans from the simplest farmstead to the highest royal court.<br>Arhel, the Lawgiver (Order) stands for social stability, justice, and the careful weighing of scales. Magistrates and city guards who revere Arhel see themselves as stewards of divine law, defending the innocent and meting out punishment for wrongdoers. Conflict often arises between Arhel’s ironclad strictures and Orathal’s celebration of chaos.<br>Balnis, the Grim Watcher (Grave, Death) keeps the final vigil, guiding souls beyond the mortal veil and safeguarding the world against undead abominations. Somber ceremonies honor the lives of the fallen, whether knights on a battlefield or a villager lost to sickness. Tieflings—often shunned—find acceptance in Balnis’s impartial gaze, as their mortal deeds weigh more than their infernal heritage.<br>Dalurus, the Dawn’s Light (Light) provides hope and renewal at every sunrise. Humans and Tabaxi alike say morning prayers to Dalurus for blessings of warmth, clarity, and the banishment of darkness. His priests sometimes stand as the first line of defense against nocturnal horrors.<br>Ethyri, the Twilight Guardian (Twilight) guides those between day and night, watchers at dusk, and protectors of travelers against hidden threats. Firbolgs, who dwell in woodland twilight, offer Ethyri their quiet supplications. Lantern-light ceremonies at the shifting of day into night signify Ethyri’s blessing.<br>Kharvos, the Warbringer (War) stands for martial prowess, discipline, and the fires of conflict that test one’s mettle. Half-orcs and dwarves often fight under Kharvos’s banner, revering honor gained through trial by combat. Though seen as violent by many, his code also insists on a sense of valor and fairness in the art of war.<br>Lysa, the Harvest Mother (Life, Nature) is universally revered for blessing crops and ensuring prosperity. Her worship is strong in farming communities like Valith, where festivals honor the planting and harvesting cycles. The gentle façade of her temples, however, can mask secretive or even illicit activities, such as the Thieves’ Guild that operates beneath the Temple of Lysa in Valith.<br>Maralon, the All-Seeing Sage (Knowledge, Arcana) presides over hidden lore and ancient arcane secrets. Elves and scholars seek his guidance in uncovering relics of the Camden Empire. Libraries dedicated to Maralon are considered neutral ground, their stacks brimming with knowledge both illuminating and dangerous.<br>Myria, the Peaceweaver (Peace, Life) champions reconciliation and diplomatic resolution, seeking to mend the wounds caused by constant warfare. Ceremonies in her name feature burnt offerings of written grievances, symbolizing the release of old grudges. Myria’s priests often accompany armies not to wage war but to offer healing or broker truces.<br>Nimara, the Storm Queen (Tempest) embodies the fury of storms and the cleansing power of rain. Dragonborn, moved by her raw elemental might, are among her most fervent worshipers. Coastal towns host rituals on sea cliffs, casting offerings to the thunderous winds in hopes of either tempering or unleashing nature’s wrath.<br>Orathal, the Laughing Shadow (Trickery) delights in mischief and blurred lines between truth and illusion. Rogues, bards, and changelings invoke Orathal for cunning schemes and quick escapes. Public festivals of Orathal can be raucous and chaotic, testing the patience of more lawful deities’ devotees.<br>Thurim, the Ironheart (Forge) is patron to smiths, builders, and any who reshape the world with hammer and anvil. Dwarves build vast forges in his name, lighting the darkness of mountain halls with molten metal. Gnomes, too, celebrate Thurim’s emphasis on creativity, fusing mechanical brilliance with devout reverence.]]></description><link>important-lore/pantheon.html</link><guid isPermaLink="false">Important Lore/Pantheon.md</guid><pubDate>Thu, 10 Apr 2025 17:29:50 GMT</pubDate></item><item><title><![CDATA[Pantheon Dynamics]]></title><description><![CDATA[ 
+ <br>
+<br>Allies &amp; Rivalries:
+
+<br>Lysa and Myria’s worshipers often collaborate to heal war-torn lands.<br>
+
+<br>Kharvos’s followers clash frequently with those of Myria.<br>
+
+<br>Nimara (Tempest) and Thurim (Forge) share an odd rivalry—storms can ruin forges, but rainfall can also cool molten metal.<br>
+
+<br>Maralon (Knowledge/Arcana) and Balnis (Grave) share a mutual respect; knowledge of death’s mysteries can help maintain cosmic balance.<br>
+
+<br>Orathal (Trickery) frequently butts heads with Arhel (Order) over the necessity—or chaos—of bending rules.<br>
+
+
+
+<br>Cults &amp; Sects:
+
+<br>Certain zealots of Maralon or the Camden Remnant might elevate knowledge and magic to near-fanatical heights.<br>
+
+<br>Secret orders devoted to Nimara practice weather-altering rituals that sometimes cause local disasters—or provide lifesaving rains in drought-stricken lands.<br>
+
+<br>In major cities, the priesthood of Arhel often acts as a de facto police force, occasionally clashing with Orathal’s hidden circles.
+
+
+]]></description><link>important-lore/pantheon-dynamics.html</link><guid isPermaLink="false">Important Lore/Pantheon Dynamics.md</guid><pubDate>Thu, 10 Apr 2025 20:23:16 GMT</pubDate></item><item><title><![CDATA[The People of Estria]]></title><description><![CDATA[ 
+ <br>Humans in Estria are as varied as the terrain they inhabit—ranging from bustling urbanites in the grand capital of Aldamar to rustic farmers tending the golden fields around Valith. Generally adaptable, Humans find it easy to coexist with other races who share their settlements. They are often devout in their worship, choosing gods that meet practical needs at any given time: they might pray to Lysa for a bountiful harvest one day and call on Arhel for justice the next. Culturally, Humans value initiative, ambition, and personal freedom, traits that reflect in everything from their stories to their politics. They have a penchant for forming large families or clans, which helps foster community networks that extend over generations and across regions.<br>Elves have centuries of oral and written tradition tracing back to the era of the Camden Empire, making them renowned guardians of knowledge and lore. Many revere Maralon, the All-Seeing Sage, seeking guidance in preserving and rediscovering arcane secrets. Elven communities tend to be close-knit, emphasizing respect for ancient customs, nature, and the flow of magic in the world. However, they are far from isolationist; Elves frequently trade ideas with Gnomes, goods with Humans, and stories with Halflings, finding in them a shared enthusiasm for peaceful coexistence. Artistic pursuits—poetry, music, calligraphy, and sculpture—are woven into everyday life, reinforcing a cultural identity that prizes beauty, memory, and scholarship.<br>Half-Elves stand at the crossroads of Human and Elven heritage. This duality can bring an adaptability that matches Humans’ drive and an appreciation for tradition reminiscent of Elves. In many towns and cities, Half-Elves fill roles as ambassadors, translators, or cultural liaisons, bridging gaps between the more insular enclaves of Elves and the bustling domains of Humans. While some Half-Elves gravitate toward large mixed-race settlements, others immerse themselves fully in either Human or Elven society. Regardless of preference, most strive to harmonize the best elements of both worlds. Though they may occasionally feel like outsiders in either culture, their dual lineage often fosters empathy and diplomacy.<br>Gnomes are beloved for their inventive spirit and infectious curiosity. From miniature windmills in rural farmlands to arcane contraptions in major city workshops, their knack for technology and tinkering dazzles neighbors. Culturally, Gnomes hold to the belief that no discovery is too small to celebrate—an outlook that lends them a buoyant sense of optimism. Many are devout followers of Maralon (for knowledge and arcana) or Thurim (for the love of craftsmanship). Gnome communities welcome visitors with open arms, eager to swap tales and show off their latest inventions. While they mingle freely with other races, many prefer living among fellow Gnomes who share their passion for invention, ensuring that squeals of delight and the hum of small machinery are constant backdrops to daily life.<br>Halflings hold a reputation for warmth, hospitality, and strong communal bonds. Their villages are often rife with shared meals, raucous laughter, and leisurely evenings around a hearth. Reverence for Lysa is common, as Halflings enjoy tying their well-being to the rhythms of farmland and family gatherings. This love of comfort and neighborly trust extends even into cities, where Halfling neighborhoods may feel like miniature pastoral enclaves. While Halflings rarely seek adventure, they nonetheless adapt gracefully if it finds them. Their small stature often conceals a keen intellect and a knack for resourcefulness, making them fine traveling companions and shrewd negotiators.<br>Half-Orcs are not necessarily disliked, but they exist on the fringe of popular society, tending to live in marginalized settlements or work as hired muscle in Aldamar’s frontier regions. Many revere Kharvos, valuing strength, discipline, and the forging of personal honor in a world that too often casts them aside. Villages near Half-Orc encampments might trade or cooperate in shared tasks like hunting or road-guarding, but formal alliances are rare and often uneasy. The result is that outsiders typically deal with Half-Orcs only when necessity compels them, leaving Half-Orcs less integrated into Aldamar’s mainstream culture. Despite these hurdles, Half-Orcs possess strong kinship networks; extended families often work together for mutual support, carving out places for themselves in an otherwise wary society.<br>Dragonborn clans or enclaves are relatively insular, bound by tradition, ancestral honor, and sometimes by the element linked to their draconic lineage. They keep tight-knit communities in secluded areas—rocky highlands, coastal cliffs near Nimara’s storms, or even mountain fortresses. While their imposing presence can inspire awe or anxiety among other races, most Dragonborn are respected for their integrity and formidable sense of justice. Steeped in warrior culture, they also incorporate strict codes of courtesy and hospitality. Many Dragonborn feel drawn to Nimara, the Storm Queen, or Kharvos, the Warbringer, channeling draconic might into unwavering devotion to one of these deities. Others devote themselves to Thurim, balancing physical and spiritual forging within a culture that prizes disciplined excellence.<br>Tabaxi typically form small, nomadic groups that follow trade routes, forest paths, and hidden mountain passes, driven by wanderlust and curiosity. They maintain ties to distant homelands or isolated villages where fellow Tabaxi convene to share tales of their travels. A sense of freedom pervades their culture, from artful dance to storytelling traditions that revolve around personal discovery and cunning. Though accepted by other races, Tabaxi often prefer the company of those who share their sense of adventure. When Tabaxi do settle among Humans or Elves, they bring along their penchant for commerce, exotic goods, and an almost feline penchant for mischief and unpredictability—often finding kinship with Orathal’s worshipers in bigger cities.<br>Firbolgs tend to dwell in remote woodland enclaves, living in harmony with nature. Their society values community, humility, and stewardship of the forest. Firbolgs who wander closer to mainstream settlements typically maintain a reserved presence, soft-spoken in conversation and careful not to upset local customs. They favor deities like Lysa and Ethyri, believing that life’s natural cycles and the balance of twilight hours mirror their own relationship with the world. While they maintain cordial relations with other races, Firbolgs often feel more comfortable in small, self-sustaining communities where the bustle of society and politics is kept at arm’s length.<br>&nbsp;<br>Changelings are rarely recognized as such, which is partly by design. Scattered throughout cities and rural settlements alike, they blend in by adopting ordinary guises. Their culture, if it can be called that, is one of quiet adaptation, a continual dance of survival and self-expression. Some Changelings use their shapeshifting ability to slip into roles where they can observe or manipulate events—a potential asset to thieves or spies—while others yearn for stable identities and communities that accept them for who (and what) they are. Fear of being exposed often guides their day-to-day interactions, but in private gatherings, Changelings share stories of identity, freedom, and ways to co-exist peacefully with unsuspecting neighbors.<br>Tieflings suffer the heaviest social stigma of any common race in Estria. Their infernal heritage marks them as outcasts, leading most folk to avoid them outright—some even crossing the street or taking a longer route to avoid close proximity. This deep-seated wariness drives Tieflings into tight-knit enclaves or leaves them roaming as nomads, wary of where they’re truly safe. Many find comfort in the worship of Balnis, the Grim Watcher, recognizing that their deeds, not their bloodline, should determine their fate in the afterlife. Still, distrust weighs heavily on them, and bitterness can fester in communities where tieflings feel perpetually ostracized. A few attempt to hide physical signs of their lineage, using cloaks, hoods, or illusions, but most come to terms with being haunted by others’ suspicions and try to carve out a life despite the scorn directed their way.]]></description><link>important-lore/the-people-of-estria.html</link><guid isPermaLink="false">Important Lore/The People of Estria.md</guid><pubDate>Thu, 10 Apr 2025 17:35:21 GMT</pubDate></item><item><title><![CDATA[Alric Varn]]></title><description><![CDATA[ 
+ <br>Marshal of the Iron Vanguard<br>
+Human, Male, Mid 40s<br>
+Background: Soldier<br>
+Alignment: Lawful Good<br>
+<img alt="Alric.png" src="important-npcs/npc-pictures/alric.png"><br>
+<br>Personality Traits:
+
+<br>“Honor is the shield we hold in the dark. Drop it, and we fall.”<br>
+
+<br>“I speak plainly. I kill swiftly. I kneel to no crown blindly.”<br>
+
+
+
+<br>Ideals:
+
+<br>Loyalty. The Vanguard protects Aldamar—not just the throne.<br>
+
+<br>Justice. We follow law not for law’s sake, but for the people behind it.<br>
+
+
+
+<br>Bonds:
+
+<br>I fought beside King Tristram at the Siege of Thorncrest. I’ll never abandon him.<br>
+
+<br>My sister died to raiders while we were spread too thin. I will fix that.<br>
+
+
+
+<br>Flaws:
+
+<br>I believe I’m the only one who can hold the line.<br>
+
+<br>I detest politics and ignore them when I shouldn't.
+
+
+]]></description><link>important-npcs/alric-varn.html</link><guid isPermaLink="false">Important NPCs/Alric Varn.md</guid><pubDate>Fri, 11 Apr 2025 14:19:40 GMT</pubDate><enclosure url="important-npcs/npc-pictures/alric.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/alric.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Celindra Malloray]]></title><description><![CDATA[ 
+ <br>Mistress of Protocol<br>
+Human, Female, Early 40s<br>
+Background: Courtier<br>
+Alignment: Neutral<br>
+<img alt="Celindra.png" src="important-npcs/npc-pictures/celindra.png"><br>
+<br>Personality Traits:
+
+<br>“I don’t blink. Ever. And I never forget a face—or a lie.”<br>
+
+<br>“If you must stab, do it with a smile and silk gloves.”<br>
+
+
+
+<br>Ideals:
+
+<br>Secrets. Information is power. I collect both.<br>
+
+<br>Precision. A clean betrayal is a masterpiece.<br>
+
+
+
+<br>Bonds:
+
+<br>I helped cover up a royal scandal. If it gets out, the court will burn.<br>
+
+<br>My brother was executed under Renwalt’s orders. I play nice—for now.<br>
+
+
+
+<br>Flaws:
+
+<br>I trust only myself—and I don’t always trust her either.<br>
+
+<br>I enjoy court games far too much.
+
+
+]]></description><link>important-npcs/celindra-malloray.html</link><guid isPermaLink="false">Important NPCs/Celindra Malloray.md</guid><pubDate>Fri, 11 Apr 2025 14:22:25 GMT</pubDate><enclosure url="important-npcs/npc-pictures/celindra.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/celindra.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Envar Lysgrain]]></title><description><![CDATA[ 
+ <br>Guildmaster of the Merchant’s Guild<br>
+Human, Male, Late 50s<br>
+Background: Guild Artisan<br>
+Alignment: Lawful Neutral<br>
+<img alt="Envar.png" src="important-npcs/npc-pictures/envar.png"><br>
+<br>Personality Traits:
+
+<br>“Everything has a price—knowledge, loyalty, even silence.”<br>
+
+<br>“I hate disorganization. Coin should flow like water through a well-cut channel.”<br>
+
+
+
+<br>Ideals:
+
+<br>Control. Wealth is power, and power should never be wasted on sentiment.<br>
+
+<br>Efficiency. Trade is the engine of the realm. If it stops, everything stops.<br>
+
+
+
+<br>Bonds:
+
+<br>I built the Guild into what it is—no one, not even the King, will undo that.<br>
+
+<br>My granddaughter studies in Estria’s Crown. She is my true legacy.<br>
+
+
+
+<br>Flaws:
+
+<br>I vastly underestimate how much people hate the Guild’s growing influence.<br>
+
+<br>I’d betray a friend before admitting I was wrong.
+
+
+]]></description><link>important-npcs/envar-lysgrain.html</link><guid isPermaLink="false">Important NPCs/Envar Lysgrain.md</guid><pubDate>Fri, 11 Apr 2025 14:22:34 GMT</pubDate><enclosure url="important-npcs/npc-pictures/envar.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/envar.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Harlan Iornfoot]]></title><description><![CDATA[ 
+ <br>Dwarven Veteran Blacksmith of Valith<br>
+Dwarf, Male, Early 70s<br>
+Background: Folk Hero<br>
+Alignment: Neutral Good<br>
+A dwarf blacksmith with a missing leg and an endless supply of stories. Though he mostly focuses on repairing farmers’ tools, Harlan’s adventuring experience makes him a crucial source of guidance for anyone seeking to brave the dangers lurking beyond Valith’s fields.<br>
+<img alt="Harlan.png" src="important-npcs/npc-pictures/harlan.png"><br>
+<br>Personality Traits:
+
+<br>“Every scar tells a story, and I’ve got plenty to share.”<br>
+
+<br>“I treat even strangers like old friends… unless they insult my work.”<br>
+
+
+
+<br>Ideals:
+
+<br>Tradition. The old ways still have value—even in a changing world.<br>
+
+<br>Helpfulness. If my hammer or my stories can help someone, then they’re both well-used.<br>
+
+
+
+<br>Bonds:
+
+<br>I still carry a piece of metal from a fallen comrade—melted into the handle of my forging hammer.<br>
+
+<br>Valith is my home. I’d die before I let it fall into darkness.<br>
+
+
+
+<br>Flaws:
+
+<br>I downplay my injuries and age even when I shouldn’t.<br>
+
+<br>I have a soft spot for reckless young adventurers—just like I used to be.
+
+
+]]></description><link>important-npcs/harlan-iornfoot.html</link><guid isPermaLink="false">Important NPCs/Harlan Iornfoot.md</guid><pubDate>Fri, 11 Apr 2025 13:57:46 GMT</pubDate><enclosure url="important-npcs/npc-pictures/harlan.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/harlan.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Important NPCs]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>important-npcs/important-npcs.html</link><guid isPermaLink="false">Important NPCs/Important NPCs.md</guid><pubDate>Fri, 11 Apr 2025 13:50:57 GMT</pubDate></item><item><title><![CDATA[Kadrin Marral]]></title><description><![CDATA[ 
+ <br>Master of Laws &amp; Oaths<br>
+Dwarf, Male, Old<br>
+Background: Guild Artisan<br>
+Alignment: Lawful Neutral<br>
+<img alt="Kadrin.png" src="important-npcs/npc-pictures/kadrin.png"><br>
+<br>Personality Traits:
+
+<br>“The law is not just ink and word—it is the spine of civilization.”<br>
+
+<br>“I trust parchment more than people.”<br>
+
+
+
+<br>Ideals:
+
+<br>Law. Justice must be consistent, even when it’s cruel.<br>
+
+<br>Tradition. The old ways endure because they work.<br>
+
+
+
+<br>Bonds:
+
+<br>My clerical vows bind me to Arhel, not the King—but I serve both.<br>
+
+<br>My twin sons are guards in Estria’s Crown. I raised them to follow the law, not me.<br>
+
+
+
+<br>Flaws:
+
+<br>I enforce justice without compassion.<br>
+
+<br>I see moral ambiguity as weakness.
+
+
+]]></description><link>important-npcs/kadrin-marral.html</link><guid isPermaLink="false">Important NPCs/Kadrin Marral.md</guid><pubDate>Fri, 11 Apr 2025 14:22:38 GMT</pubDate><enclosure url="important-npcs/npc-pictures/kadrin.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/kadrin.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Kelthira Merrow]]></title><description><![CDATA[ 
+ <br>Leader of the Thieves’ Guild<br>
+Half-Elf, Female, Appears 30s<br>
+Background: Criminal<br>
+Alignment: Chaotic Neutral<br>
+<img alt="Kelthira.png" src="important-npcs/npc-pictures/kelthira.png"><br>
+<br>Personality Traits:
+
+<br>“I don’t need a knife when a word will do—but I keep both sharp.”<br>
+
+<br>“Everyone wants something. I just help them realize what they’ll pay to get it.”<br>
+
+
+
+<br>Ideals:
+
+<br>Balance. Corruption’s inevitable. I just make sure it’s ours, not theirs.<br>
+
+<br>Freedom. We don’t serve crowns or coins—we serve the city’s shadow.<br>
+
+
+
+<br>Bonds:
+
+<br>Sister Evelyn is my eyes in Valith—I trust her above most.<br>
+
+<br>My first kill was a noble slaver. I still wear his ring around my neck.<br>
+
+
+
+<br>Flaws:
+
+<br>I get involved in intrigues I should leave alone—just to see if I can win.<br>
+
+<br>I’ll never forgive betrayal, but I often invite it.
+
+
+]]></description><link>important-npcs/kelthira-merrow.html</link><guid isPermaLink="false">Important NPCs/Kelthira Merrow.md</guid><pubDate>Fri, 11 Apr 2025 14:22:45 GMT</pubDate><enclosure url="important-npcs/npc-pictures/kelthira.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/kelthira.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[King Tristram Branwyne]]></title><description><![CDATA[ 
+ <br>Aging Monarch of Aldamar<br>
+Human, Male, Mid 60s<br>
+Background: Noble<br>
+Alignment: Lawful Neutral<br>
+<img alt="Tristram.png" src="important-npcs/npc-pictures/tristram.png"><br>
+<br>Personality Traits:
+
+<br>“I see the weight of a thousand decisions in every sunrise.”<br>
+
+<br>“I speak softly, but not because I am weak. I am tired.”<br>
+
+
+
+<br>Ideals:
+
+<br>Legacy. My reign must not end in chaos. I must leave a future worth inheriting.<br>
+
+<br>Duty. I serve the realm, not myself. The crown weighs more than gold ever could.<br>
+
+
+
+<br>Bonds:
+
+<br>I still wear my wedding ring, though my queen has long since passed.<br>
+
+<br>The Iron Vanguard is my sword and shield—what remains of my strength.<br>
+
+
+
+<br>Flaws:
+
+<br>I wait too long to act, hoping for peace that may never come.<br>
+
+<br>I do not trust easily—even those who would die for me.
+
+
+]]></description><link>important-npcs/king-tristram-branwyne.html</link><guid isPermaLink="false">Important NPCs/King Tristram Branwyne.md</guid><pubDate>Fri, 11 Apr 2025 13:58:08 GMT</pubDate><enclosure url="important-npcs/npc-pictures/tristram.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/tristram.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lord Wylan Holden]]></title><description><![CDATA[ 
+ <br>Lord of Holden’s Keep, Tax Collector of Valith<br>
+Human, Male, Early 50s<br>
+Background: Noble<br>
+Alignment: Lawful Neutral<br>
+<img alt="Wylan.png" src="important-npcs/npc-pictures/wylan.png"><br>
+<br>Personality Traits:
+
+<br>“I hate it, but someone has to play the villain to keep the realm from falling apart.”<br>
+
+<br>“I balance loyalty to the king with debts I cannot afford to ignore.”<br>
+
+
+
+<br>Ideals:
+
+<br>Pragmatism. Idealism doesn’t feed soldiers or pay tribute.<br>
+
+<br>Order. Without structure, we descend into warlords and whispers.<br>
+
+
+
+<br>Bonds:
+
+<br>I owe a fortune to the Merchant’s Guild—and they’re running out of patience.<br>
+
+<br>My youngest daughter is still innocent of politics. I would burn my keep to keep her safe.<br>
+
+
+
+<br>Flaws:
+
+<br>I overestimate my ability to control the peasantry and underestimate their fury.<br>
+
+<br>I drink more than I should, especially when the halls feel too quiet.
+
+
+]]></description><link>important-npcs/lord-wylan-holden.html</link><guid isPermaLink="false">Important NPCs/Lord Wylan Holden.md</guid><pubDate>Fri, 11 Apr 2025 13:59:03 GMT</pubDate><enclosure url="important-npcs/npc-pictures/wylan.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/wylan.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mayor Roric Garent]]></title><description><![CDATA[ 
+ <br>Former Mercenary, Now Mayor of Valith<br>
+Human, Male, Early 40s<br>
+Background: Soldier<br>
+Alignment: Neutral Good<br>
+A pragmatic, direct leader who spent years as a mercenary before settling down to guide this farming settlement. Known to be the first to pick up a sword when trouble arises, Roric genuinely cares about Valith and will do all in his power to protect it.<br>
+<img alt="Roric.png" src="important-npcs/npc-pictures/roric.png"><br>
+<br>Personality Traits:
+
+<br>“I don’t mince words. There’s work to do.”<br>
+
+<br>“Every problem has a solution—it’s just a question of whether it’s steel or silver.”<br>
+
+
+
+<br>Ideals:
+
+<br>Community. These people look to me for protection. I won’t fail them.<br>
+
+<br>Pragmatism. Heroes are rare. The rest of us make do with grit.<br>
+
+
+
+<br>Bonds:
+
+<br>My old mercenary band died defending a village like this. I won’t let it happen again.<br>
+
+<br>I trust Harlan more than I trust any noble. That dwarf has never lied to me.<br>
+
+
+
+<br>Flaws:
+
+<br>I sometimes revert to soldier thinking—every conflict looks like a battlefield.<br>
+
+<br>I hate dealing with politics and can be too blunt with nobles.
+
+
+]]></description><link>important-npcs/mayor-roric-garent.html</link><guid isPermaLink="false">Important NPCs/Mayor Roric Garent.md</guid><pubDate>Fri, 11 Apr 2025 14:01:03 GMT</pubDate><enclosure url="important-npcs/npc-pictures/roric.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/roric.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Renwalt Darriven]]></title><description><![CDATA[ 
+ <br>Senior Advisor to the King<br>
+Human, Male, Late 60s<br>
+Background: Sage<br>
+Alignment: Lawful Evil<br>
+<img alt="Renwalt.png" src="important-npcs/npc-pictures/renwalt.png"><br>
+<br>Personality Traits:
+
+<br>“Every man can be moved—with silver, secrets, or the right pressure.”<br>
+
+<br>“I never rush. Time is my most obedient servant.”<br>
+
+
+
+<br>Ideals:
+
+<br>Stability. Chaos serves no one. The realm must be guided… even if the hand is hidden.<br>
+
+<br>Legacy. History remembers those who steer kings, not just wear crowns.<br>
+
+
+
+<br>Bonds:
+
+<br>I tutored the prince who died before he could become heir. I’ve never forgiven fate.<br>
+
+<br>I have blackmail on nearly every noble in the realm—my insurance policy.<br>
+
+
+
+<br>Flaws:
+
+<br>I believe the King is a relic clinging to old ideals.<br>
+
+<br>I keep secrets even from allies, making trust impossible.
+
+
+]]></description><link>important-npcs/renwalt-darriven.html</link><guid isPermaLink="false">Important NPCs/Renwalt Darriven.md</guid><pubDate>Fri, 11 Apr 2025 14:22:53 GMT</pubDate><enclosure url="important-npcs/npc-pictures/renwalt.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/renwalt.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Serenya Valcairn]]></title><description><![CDATA[ 
+ <br>Court Mage<br>
+Elven, Female, Appears Mid 30s<br>
+Background: Noble<br>
+Alignment: Neutral Good<br>
+<img alt="Serenya.png" src="important-npcs/npc-pictures/serenya.png"><br>
+<br>Personality Traits:
+
+<br>“The stars do not lie. But they often laugh.”<br>
+
+<br>“I see ten futures when others see one. It’s a blessing—and a curse.”<br>
+
+
+
+<br>Ideals:
+
+<br>Hope. Even now, the realm can be saved. I must believe that.<br>
+
+<br>Truth. I will not use power for deception or gain.<br>
+
+
+
+<br>Bonds:
+
+<br>I owe King Tristram a debt of honor for saving my kin during the mage purges.<br>
+
+<br>I wear a silver ring etched with the names of five visions I have yet to prevent.<br>
+
+
+
+<br>Flaws:
+
+<br>I second-guess myself constantly—visions have failed me before.<br>
+
+<br>I have a blind spot for Renwalt’s subtle manipulations.
+
+
+]]></description><link>important-npcs/serenya-valcairn.html</link><guid isPermaLink="false">Important NPCs/Serenya Valcairn.md</guid><pubDate>Fri, 11 Apr 2025 14:22:59 GMT</pubDate><enclosure url="important-npcs/npc-pictures/serenya.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/serenya.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Sister Evelyn]]></title><description><![CDATA[ 
+ <br>Cleric of Lysa<br>
+Background: Acolyte<br>
+Alignment: Chaotic Neutral<br>
+Custodian of the Temple of Lysa, soft-spoken but perceptive.  Whether she is benevolent or manipulative remains a mystery.<br>
+<img alt="Evelyn.png" src="important-npcs/npc-pictures/evelyn.png"><br>
+<br>
+
+<br>
+Personality Traits:
+
+<br>“The Harvest Mother teaches us to listen more than we speak.”<br>
+
+<br>“There’s always time for a warm meal and a kind word.”<br>
+
+
+
+
+
+<br>Ideals:
+
+<br>Compassion. Every soul deserves dignity—be they farmer, noble, or stranger.<br>
+
+<br>Faith. The land provides if we are patient and grateful.<br>
+
+
+
+<br>Bonds:
+
+<br>I consider the people of Valith my extended family, especially the children.<br>
+
+<br>My mother was a cleric of Lysa before me. I walk her path.<br>
+
+
+
+<br>Flaws:
+
+<br>I am overly trusting and oblivious to deception around me.<br>
+
+<br>I downplay conflict, hoping it’ll resolve itself without confrontation.
+
+
+]]></description><link>important-npcs/sister-evelyn.html</link><guid isPermaLink="false">Important NPCs/Sister Evelyn.md</guid><pubDate>Fri, 11 Apr 2025 14:12:58 GMT</pubDate><enclosure url="important-npcs/npc-pictures/evelyn.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/evelyn.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Veric]]></title><description><![CDATA[ 
+ <br>Mysterious Traveler with a Locked Camden Chest<br>
+Half-Elf, Male, Late 30s<br>
+Background: Charlatan<br>
+Alignment: True Neutral<br>
+A mysterious traveler staying at the Golden Sheath, always guarding a locked chest that he claims contains a Camden relic. Whether he is on the run from powerful enemies or unwittingly dragging his pursuers to Valith, his secret is sure to cause ripples—or calamities—in town.<br>
+<img alt="Veric.png" src="important-npcs/npc-pictures/veric.png"><br>
+<br>Personality Traits:
+
+<br>“I never answer a question directly. Why spoil the game?”<br>
+
+<br>“I drink alone, eat alone, and sleep lightly—with my boots on.”<br>
+
+
+
+<br>Ideals:
+
+<br>Discovery. The past must be unearthed—even if it should stay buried.<br>
+
+<br>Independence. Trust is a dangerous luxury I can’t afford.<br>
+
+
+
+<br>Bonds:
+
+<br>The chest I carry is older than any kingdom now standing. It will not fall into the wrong hands.<br>
+
+<br>Someone is hunting me—and getting closer.<br>
+
+
+
+<br>Flaws:
+
+<br>I lie even when I don’t need to. It’s a reflex now.<br>
+
+<br>I believe fate watches me, and that I’m part of something much bigger. Whether I like it or not.
+
+
+]]></description><link>important-npcs/veric.html</link><guid isPermaLink="false">Important NPCs/Veric.md</guid><pubDate>Fri, 11 Apr 2025 14:12:09 GMT</pubDate><enclosure url="important-npcs/npc-pictures/veric.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="important-npcs/npc-pictures/veric.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Aldamar]]></title><description><![CDATA[ 
+ <br>At the heart of the continent of Averyn lies Aldamar, the largest and most influential kingdom in the known world. Born from the remnants of the fallen Camden Empire, Aldamar transformed from a modest domain into a symbol of strength, order, and political ambition.<br><br>The capital city of Aldamar, Estria’s Crown, stands as a glittering tribute to both its legacy and its aspirations. Towering spires and sweeping bridges blend ancient Camden stonework with modern Aldamari design, creating a skyline that celebrates a past of arcane grandeur and a present of resilient governance. The city buzzes with nobles, merchants, scholars, and emissaries from across the realm.<br><br>King Tristram Branwyne rules from Estria’s Crown, an aging monarch renowned for his wisdom, fairness, and diplomatic success. Under his reign, Aldamar has seen decades of relative peace and growing influence across Averyn. The Royal Court is a hub of governance, tradition, and ceremony, where advisors, dignitaries, and guild leaders gather to shape the realm’s future.<br><br>
+<br>The Merchant’s Guild oversees trade and commerce, ensuring goods flow smoothly through city markets and rural roads alike.<br>
+
+<br>The Iron Vanguard, Aldamar’s disciplined military force, stands ever-vigilant, safeguarding the kingdom’s borders and enforcing royal decrees.<br>
+
+<br>Local Nobles manage lands throughout the kingdom, sworn in loyalty to the crown and responsible for upholding law, order, and prosperity within their domains.<br>
+
+<br><br>Aldamar is a land of culture, heritage, and progress. From the golden fields surrounding Valith to the majestic halls of Estria’s Crown, the kingdom offers countless paths for adventure. Merchants, knights, scholars, and travelers alike find purpose and prosperity within Aldamar’s borders.<br>Whether you seek glory in service to the crown, wisdom from ancient Camden ruins, or fortune on the kingdom’s trade routes, Aldamar is the realm where legacies are forged.<br>Welcome to Aldamar—the shining heart of Estria.<br><br><br><br>]]></description><link>kingdoms/aldamar/aldamar.html</link><guid isPermaLink="false">Kingdoms/Aldamar/Aldamar.md</guid><pubDate>Fri, 11 Apr 2025 14:32:00 GMT</pubDate></item><item><title><![CDATA[Estria's Crown]]></title><description><![CDATA[ 
+ <br>The Capital of Aldamar<br>Nestled atop a rise where the rivers Alwyn and Dorvan converge, Estria’s Crown is a shimmering monument to the legacy of the Camden Empire and the strength of Aldamar’s modern rule. White-stone towers reach skyward like blades of light, their bases wrapped in ivy and adorned with banners bearing the sigil of House Branwyne. Wide boulevards of polished granite and flower-laden balconies give way to elegant plazas, scholarly halls, and bustling marketplaces. From its gilded gates to its soaring spires, Estria’s Crown blends ancient grandeur with vibrant, everyday life.<br>This is a city where marble statues of old heroes gaze down on laughing children, and incense from distant lands drifts past knights in polished armor. Whether you seek knowledge, trade, beauty, or glory—Estria’s Crown offers it all.<br><br><br>
+<br>The Royal Citadel: Home to King Tristram Branwyne.<br>
+
+<br>The Grand Assembly: Where nobles debate and influence the realm.<br>
+
+<br>The Crown Archives: Vault of royal and historical records.<br>
+
+<br><br>
+<br>Lyceum of Maralon: Aldamar’s finest university.<br>
+
+<br>Vault of Ink: Towering library and research haven.<br>
+
+<br>Golden Grove Amphitheater: Site of debates and performances.<br>
+
+<br><br>
+<br>House of Guilds: The economic heart of the kingdom.<br>
+
+<br>Ivory Street Bazaar: A luxurious, exotic market.<br>
+
+<br>Coinmaster’s Vault: Mint and treasury.<br>
+
+<br><br>
+<br>Forgegate Row: Home to master blacksmiths and inventors.<br>
+
+<br>Weavers’ Arch: Textile wonders and festival hub.<br>
+
+<br>The Mural Wall: A public gallery of art and history.<br>
+
+<br><br>
+<br>The Silver Lark Inn: Premier inn for dignitaries and adventurers.<br>
+
+<br>Moonlight Fountain: A beautiful, magical plaza.<br>
+
+<br>Emerald Crossroads: Hub for services, guides, and gossip.<br>
+
+<br><br>
+<br>Temple of the Sevenfold Light: Aldamar’s grand temple.<br>
+
+<br>Sanctuary of Arhel: Justice and divine law.<br>
+
+<br>The Quiet Bell: Peaceful resting ground for the departed.<br>
+
+<br><br>
+<br>The Dockline: Bustling riverfront trade.<br>
+
+<br>Hearthgate Commons: Humble residential district.<br>
+
+<br>Watchtower Circle: Guard post and security nexus.<br>
+
+<br><br><br>
+<br>Colors: Royal gold and deep indigo.<br>
+
+<br>Motto: “Crowned in Wisdom, Forged in Resolve.”<br>
+
+<br>Common Phrases:
+
+<br>“Gold flows to the Crown.”<br>
+
+<br>“What the Crown sees, the land feels.”
+
+
+]]></description><link>kingdoms/aldamar/estria's-crown.html</link><guid isPermaLink="false">Kingdoms/Aldamar/Estria's Crown.md</guid><pubDate>Fri, 11 Apr 2025 14:32:59 GMT</pubDate></item><item><title><![CDATA[Holden's Keep]]></title><description><![CDATA[ 
+ <br>Just a day’s ride from the crossroads town of Valith rises Holden’s Keep, a formidable stone fortress seated atop a low ridge. It is the ancestral seat of Lord Wylan Holden, a noble sworn to the crown of Aldamar. Towering walls, broad courtyards, and ever-watchful sentries mark this keep as a place of discipline, strategy, and leadership.<br>Though its banners bear the symbol of House Holden—a black stag on silver—its halls carry the scent of uncertainty. The keep serves not only as a military outpost but also as an administrative hub for the surrounding farmlands.<br><br><br><br>
+<br>Solid stone ramparts with thick parapets.<br>
+
+<br>Armed patrols from dawn to dusk, visible from miles away.<br>
+
+<br>Defensive ballistae and signal torches positioned at the towers.<br>
+
+<br><br>
+<br>The Hall of Oaths: Lord Holden’s audience chamber; used for announcements, disputes, and diplomatic guests.<br>
+
+<br>Knight’s Barracks: Home to the local garrison, with a training yard open to sparring and drills.<br>
+
+<br>Rider’s Gate: The main entrance to the keep, with watchtowers and reinforced gates.<br>
+
+<br><br>
+<br>Lord Holden’s Study: Decorated with scrolls, ledgers, and old heirlooms of House Holden.<br>
+
+<br>Chapel of Arhel: A modest place of worship and lawkeeping.<br>
+
+<br>Servants’ Quarters &amp; Storerooms: Housing for attendants, stewards, and quartermasters.<br>
+
+<br><br><br>Lord Wylan Holden is respected but not beloved. He commands with a sense of duty, not warmth. His taxing policies strain relations with nearby Valith, but few doubt his commitment to maintaining order. Travelers passing through Holden’s Keep can expect:<br>
+<br>Clean, organized barracks or guest rooms (if allowed entry).<br>
+
+<br>Well-stocked armories and basic smithing services.<br>
+
+<br>Limited but fair access to supplies for coin or favor.<br>
+
+<br>Despite its harsh exterior, Holden’s Keep stands as a key bulwark protecting southern Aldamar—and a waypoint for those traveling deeper into the kingdom.]]></description><link>kingdoms/aldamar/holden's-keep.html</link><guid isPermaLink="false">Kingdoms/Aldamar/Holden's Keep.md</guid><pubDate>Fri, 11 Apr 2025 14:41:27 GMT</pubDate></item><item><title><![CDATA[Valith]]></title><description><![CDATA[ 
+ <br>Nestled in a quiet valley of rolling hills and golden fields, Valith presents the quintessential image of a peaceful farming community. With a population of roughly two hundred souls, Valith draws its livelihood from the cultivation of Sungrain, a golden wheat prized throughout the region for its sweet flavor and high yield. The town brews its famous Golden Draft ale from this wheat, turning what might have been a humble hamlet into a renowned waystop for merchants and travelers.<br>Valith is also a crossroads settlement, making it a constant stir of activity. Caravans hauling everything from rare spices to exotic curiosities pass through en route to Estria’s Crown or Holden’s Keep, a fortress belonging to the local lord who oversees Valith. Despite its small size, the town bursts with life and gossip, thanks in part to the presence of adventurous souls who stop by—some seeking only a night’s rest, others chasing rumors of hidden treasures within the nearby Shadowpass Woods.<br><br>The Golden Sheath Tavern is the heart of local hospitality, famed for its Golden Draft and lively atmosphere. On any given evening, one can find farmers unwinding from their labors, merchants sharing news from distant parts of Estria, and the occasional bard or traveler offering tall tales in exchange for a warm meal.<br>Harlan’s Forge, run by the one-legged dwarf Harlan Ironfoot, stands on the outskirts of Valith. Harlan is a retired adventurer whose stories of traveling from the Scorched Waste to the Sapphire Coast have earned him near-celebrity status among the townsfolk. While he spends most of his time repairing farm equipment, Harlan’s skill extends to crafting sturdy swords and armor, especially if the commission intrigues his sense of nostalgia.<br>A small General Store, operated by a cheerful halfling couple, supplies travelers and locals alike with essentials—from oil and lanterns to rope and flour. Well-meaning and always chatty, the couple prides themselves on knowing all the local rumors, which they happily share with paying customers.<br>In the center of town is the Temple of Lysa, modest in structure, yet essential to Valith’s spiritual and communal life. Dedicated to the Goddess of Harvest, its priests publicly ensure that the land’s fertility remains strong and that local offerings to Lysa continue in earnest. Beneath its unassuming façade, however, a secret Thieves’ Guild has taken root. Sister Evelyn, a seemingly soft-spoken cleric, may know far more about clandestine dealings in Valith than she initially lets on.<br>Finally, the Shadowpass Woods loom at the edge of the town’s fields, a dark, twisted forest full of cautionary tales. Stories speak of cursed beasts and hidden relics from Camden’s lost era tucked among the towering pines and overgrown ruins. Travelers who wander too far into the woods report eerie sightings and vanishings that only fuel rumors of an otherworldly taint in the region.<br><br><br><br>]]></description><link>kingdoms/aldamar/valith.html</link><guid isPermaLink="false">Kingdoms/Aldamar/Valith.md</guid><pubDate>Thu, 10 Apr 2025 17:24:22 GMT</pubDate></item><item><title><![CDATA[Exotic Lands]]></title><description><![CDATA[ 
+ <br><br><br>]]></description><link>kingdoms/exotic-lands/exotic-lands.html</link><guid isPermaLink="false">Kingdoms/Exotic Lands/Exotic Lands.md</guid><pubDate>Thu, 10 Apr 2025 16:41:52 GMT</pubDate></item><item><title><![CDATA[The Astral Nexus]]></title><description><![CDATA[ 
+ <br>Off the shores of the Sapphire Coast, where cities pulse with trade and culture, sailors have reported a bizarre, celestial anomaly dubbed the Astral Nexus. At first glance, it appears to be a patch of starlight shimmering atop the ocean’s surface—visible even under the noon sun. At night, however, the phenomenon becomes truly mesmerizing: an indigo glow, ringed with faint silver motes, flickers across the waves like a reflection of a starry sky in cosmic motion.<br>Seafarers speak of the Astral Nexus in hushed, reverent tones, offering widely different explanations for its origin. Some claim it’s a fracture in reality that leads directly to the planes of the gods—an astral “doorway” through which cosmic energies pour into the mortal realm. Others describe it as a tear in the fabric of magic left behind by an ancient Camden experiment gone awry. Whatever its nature, ships that veer too close to the swirling lights risk encountering bizarre phenomena: time dilation where hours at sea pass as mere minutes on land, or dreamlike apparitions of lost loved ones who appear on deck only to vanish seconds later. More than one captain has returned from a voyage with neither a coherent story to tell nor a memory of what befell them—save for the echo of starlight behind their eyes.<br>While some daring individuals yearn to master the Astral Nexus for power or discovery, most coastal inhabitants consider it a place to avoid or at least approach with the utmost caution. Between its entrancing vistas and its rumored connections to other planes, the Astral Nexus has become a magnet for arcane researchers, fortune-seekers, and superstitious sailors who insist that sailing too near may change one’s fate forever.]]></description><link>kingdoms/exotic-lands/the-astral-nexus.html</link><guid isPermaLink="false">Kingdoms/Exotic Lands/The Astral Nexus.md</guid><pubDate>Fri, 11 Apr 2025 03:58:30 GMT</pubDate></item><item><title><![CDATA[The Scorched Waste]]></title><description><![CDATA[ 
+ <br>Beyond Aldamar’s borders—Cut off by a rugged mountain range—lies a desolate land dominated by a vast, unforgiving desert known simply as the Scorched Waste. Long, scorching days and sudden, vicious sandstorms discourage most travelers from even attempting the journey. Only nomadic tribes and hardened adventurers dare to wander its dun-colored dunes. The windblown sand conceals the remnants of an age-old civilization, rumored to be connected to the fallen Camden Empire. Ruined spires poke through the shifting terrain, their inscriptions half buried, speaking of a grand city swallowed by the desert’s wrath.<br>Some travelers whisper that the Camden Empire once exiled its most dangerous sorcerers to this desert, forcing them to hide arcane secrets that could threaten the entire world. A persistent rumor suggests that hidden deep under the endless sands, within eroded temples carved from black obsidian, lie the empire’s “darkest secrets”—relics or spells so catastrophic that even Camden’s mightiest wizards feared to use them. Few believe these tales outright; the majority dismiss them as stories spun by desert nomads to frighten foolish treasure hunters. Still, any expedition daring enough to penetrate the storm-wracked dunes must contend not only with blistering winds and scorching sun, but also with the possibility that something far worse stirs beneath their feet.]]></description><link>kingdoms/exotic-lands/the-scorched-waste.html</link><guid isPermaLink="false">Kingdoms/Exotic Lands/The Scorched Waste.md</guid><pubDate>Fri, 11 Apr 2025 03:19:32 GMT</pubDate></item><item><title><![CDATA[The Shadow Mirror]]></title><description><![CDATA[ 
+ <br>Southeast of the rolling fields and forested slopes of Aldamar stretches a sprawling marshland called the Shadow Mirror, named for the way its dark waters reflect moonlight in eerie detail. Gnarled cypress trees draped with hanging moss form a dense canopy, filtering daylight to a perpetual dim glow. At dusk, vaporous lights—sometimes called “will-o’-wisps”—dance above boggy ground, luring the unwary deeper into quagmire.<br>Though remote, the Shadow Mirror is said to be home to a court of dangerous fey. These fey entities are as beguiling as they are deadly; they might offer safe passage one moment and ensnare mortal souls the next. Tales circulate of travelers who vanish after encountering a strange, soft laughter echoing through the mists. Others report improbable bargains struck with entities that demand cryptic debts: stolen memories, a year of one’s life, or a single true name. The region’s name also hints at an unsettling phenomenon: when conditions are just right, the dark waters can reflect not only a viewer’s image but the shape of something “other,” standing just behind them, veiled in the mirror’s surface. Some legends warn that if you stare too long into the Shadow Mirror, you might see your own reflection wink—or walk away, leaving only an empty husk behind.<br>As The Shadow Mirror is the only land bridge between Averyn and the lands beyond, without a ship, some people venture forth to reach other lands. Whether they make it through or not is a mystery. With the tales and rumors told, it's unlikely that if you do survive, that you would survive twice.]]></description><link>kingdoms/exotic-lands/the-shadow-mirror.html</link><guid isPermaLink="false">Kingdoms/Exotic Lands/The Shadow Mirror.md</guid><pubDate>Fri, 11 Apr 2025 03:21:14 GMT</pubDate></item><item><title><![CDATA[Dusk Lands]]></title><description><![CDATA[ 
+ <br>"Where the sun sets on forgotten kingdoms and blood never dries."<br>To the east of Aldamar and south of the Frozen Expanse lies the Dusk Lands, a war-torn expanse of dusty highlands, ash-swept fields, and the remnants of a kingdom that once rivaled the Camden Empire.<br>
+<br>Perpetual Conflict: Countless tribes and warlords battle for territory. Alliances shift rapidly. Victory is temporary.<br>
+
+<br>Bone Seers: Mysterious oracles speak with the dead by carving secrets into bleached bones. Are they prophets or madmen?<br>
+
+<br>Arcane Scars: Camden’s Firefall left melted earth and twisted spires—haunted by the ghosts of magi long dead.<br>
+
+<br>Places of Note:<br>
+<br>Vaskharyn Keep: A crumbling fortress where truces are made and broken.<br>
+
+<br>Ember Steps: Charred plains still warm from ancient magical firestorms.<br>
+
+<br>The Red Chorus: A war-singer tribe whose songs drive their foes to madness.
+]]></description><link>kingdoms/dusk-lands.html</link><guid isPermaLink="false">Kingdoms/Dusk Lands.md</guid><pubDate>Fri, 11 Apr 2025 04:07:25 GMT</pubDate></item><item><title><![CDATA[Eldertide Isles]]></title><description><![CDATA[ 
+ <br>"No flags, no kings, only freedom—and the blood price it demands."<br>East of Aldamar's coast lies a ragged chain of isles home to outlaws, pirates, exiled nobles, and heretic mages. The Isles are wild, lawless, and full of promise for those with steel or sorcery.<br>
+<br>Outcasts' Refuge: Every isle is its own kingdom or anarchy.<br>
+
+<br>Living Magic: Some isles pulse with unstable wild magic.<br>
+
+<br>Forgotten Gods: Blood-slick rituals call on deities long forgotten by mainlanders.<br>
+
+<br>Places of Note:<br>
+<br>Krakenfall: A pirate city built in the bones of a leviathan.<br>
+
+<br>Isle of Breth: A time-twisted refuge of an ancient sorceress-queen.<br>
+
+<br>The Singing Reefs: Coral fields that hum at sunset and sometimes swallow ships whole.
+]]></description><link>kingdoms/eldertide-isles.html</link><guid isPermaLink="false">Kingdoms/Eldertide Isles.md</guid><pubDate>Fri, 11 Apr 2025 04:08:40 GMT</pubDate></item><item><title><![CDATA[Frozen Expanse]]></title><description><![CDATA[ 
+ <br>"Where even time slows to die, and the snow remembers every scream."<br>To the far north, beyond Aldamar’s last outposts, lies a realm of frost, silence, and terrible beauty. Magic lingers here, encased in ice, waiting.<br>
+<br>Timeless Desolation: Cold preserves not only bodies—but nightmares, memories, and spells.<br>
+
+<br>Haunted Skies: Auroras drift like souls seeking passage.<br>
+
+<br>Forbidden Vaults: Buried Camden research stations or temples lie dormant in the deep freeze.<br>
+
+<br>Places of Note:<br>
+<br>Shardvault: A half-buried obsidian fortress crackling with arcane storms.<br>
+
+<br>Kholvarin’s Spire: A lone tower where a prophet watches the future freeze.<br>
+
+<br>The Deadward Coast: Frozen sea where whispers lure sailors beneath the ice.
+]]></description><link>kingdoms/frozen-expanse.html</link><guid isPermaLink="false">Kingdoms/Frozen Expanse.md</guid><pubDate>Fri, 11 Apr 2025 04:07:57 GMT</pubDate></item><item><title><![CDATA[Kingdoms of Estria]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br>]]></description><link>kingdoms/kingdoms-of-estria.html</link><guid isPermaLink="false">Kingdoms/Kingdoms of Estria.md</guid><pubDate>Fri, 11 Apr 2025 03:17:30 GMT</pubDate></item><item><title><![CDATA[Sapphire Coast]]></title><description><![CDATA[ 
+ <br>"Where every harbor hides a secret, and every coin bears two faces."<br>South of Aldamar lies the glittering Sapphire Coast, a realm of sun-drenched cliffs, cosmopolitan cities, and thriving trade empires. Riches and risk go hand in hand here.<br>
+<br>Merchant Monarchs: Each city-state is ruled by merchant lords or trade syndicates.<br>
+
+<br>Intrigue &amp; Espionage: Assassinations, blackmail, and relic-smuggling are all part of doing business.<br>
+
+<br>Camden Relic Market: Many magical artifacts from Camden’s fall end up here—auctioned or weaponized.<br>
+
+<br>Places of Note:<br>
+<br>Solavar: The jeweled crown of the coast, ruled by a child prince surrounded by scheming regents.<br>
+
+<br>Port Virelle: A pirate-friendly port that reveres Nimara through sea duels and storm festivals.<br>
+
+<br>Glassrest: A city of crystal towers and ocean-side magic schools.
+]]></description><link>kingdoms/sapphire-coast.html</link><guid isPermaLink="false">Kingdoms/Sapphire Coast.md</guid><pubDate>Fri, 11 Apr 2025 04:07:40 GMT</pubDate></item><item><title><![CDATA[Adventure Hooks in Valith]]></title><description><![CDATA[ 
+ <br><br>
+<br>The Thieves’ Guild is rumored to be smuggling arcane artifacts out of Shadowpass Woods, possibly pieces of Camden’s lost legacy.<br>
+
+<br>Livestock near the forest edge have been disappearing, with strange footprints suggesting a beast—or something worse—lurks among the trees.<br>
+
+<br>Veric’s precious relic, said to come from Camden’s cursed ruins, may hold a power that could either protect Valith from oncoming threats or doom it.
+<br><br>
+<br>
+Smuggling of Camden Artifacts
+
+<br>The Thieves’ Guild uses the temple as a front to move arcane remnants out of Shadowpass Woods. Some relic may be particularly dangerous and is drawing outside attention.<br>
+
+
+
+<br>
+Shadowpass Woods Abductions
+
+<br>Livestock are disappearing; footprints near the forest edge look nothing like local wildlife. Rumors blame cursed beasts or Camden-warped monstrosities.<br>
+
+
+
+<br>
+Veric’s Secret Cargo
+
+<br>Veric’s chest might hold an item crucial to either the King or the Camden Remnant, a group devoted to reclaiming the lost magical heritage of the Camden Empire. Others seek to take it by force.
+
+
+<br><br>
+<br>Holden’s Keep: A stout fortress a day’s ride from Valith. The seat of Lord Wylan Holden, who profits from taxing Valith’s bounty.<br>
+
+<br>Growing Resentment: Heavy taxes have stirred unrest among Valith’s townsfolk, especially as they see little in return for their labor. Lord Holden is not unsympathetic, but he’s desperate for coin, caught between the King’s demands for tribute and his own ambitions.<br>
+
+<br>Potential Flashpoint: Should rumors of rebellion spread, or if the Thieves’ Guild’s activities incite a crackdown, Holden’s Keep could become the site of a standoff between peasants and the local lord.
+]]></description><link>private-notes/adventure-hooks-in-valith.html</link><guid isPermaLink="false">Private Notes/Adventure Hooks in Valith.md</guid><pubDate>Thu, 10 Apr 2025 20:24:49 GMT</pubDate></item><item><title><![CDATA[Aldamar threats]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+Succession Crisis
+
+<br>King Tristram has no clear heir. Rivals within the Royal Court—once close advisors—are now forming factions.<br>
+
+<br>One notable courtier is High Counselor Renwalt: outwardly a trusted advisor, quietly orchestrating alliances that may undermine the King’s fragile hold on power.<br>
+
+
+
+<br>
+Foreign Threats
+
+<br>Aldamar’s borders are harried by warlords from the Dusk Lands, a realm ravaged by endless skirmishes.<br>
+
+<br>Reports tell of border towns sacked or threatened, begging King Tristram for more troops—troops he can barely spare.<br>
+
+
+
+<br>
+The Camden Remnant
+
+<br>A fervent group, half-scholars and half-zealots, seeking hidden arcane knowledge from the fallen Camden Empire’s secrets.<br>
+
+<br>Many Aldamari nobles see them as meddlers or worse, but rumors persist that they might hold the key to staving off a grander evil stirring in the old ruins.<br>
+
+
+
+<br>
+Internal Strife
+
+<br>Nobles bristle at the King’s authority, hiring mercenaries to defend their lands or push personal agendas.<br>
+
+<br>The Merchant’s Guild eyes the farmland around Valith and other resource-rich towns, hoping to fortify trade monopolies.
+
+
+]]></description><link>private-notes/aldamar-threats.html</link><guid isPermaLink="false">Private Notes/Aldamar threats.md</guid><pubDate>Thu, 10 Apr 2025 20:24:04 GMT</pubDate></item><item><title><![CDATA[Global Threat]]></title><description><![CDATA[ 
+ <br>Whispers of an intercontinental war drifting ever closer to Aldamar’s shores rattle the kingdom’s populace. Distant nations locked in brutal struggles threaten to spill into Estria, seeking allies or new lands to conquer. King Tristram finds himself inundated with pleas for support from border towns struggling against marauders. Yet the king’s coffers and armies are already near a breaking point. Nobles wrangle for power, opportunists see the chaos as a means to profit, and the common folk look on, wondering who—if anyone—will protect them if war arrives.]]></description><link>private-notes/global-threat.html</link><guid isPermaLink="false">Private Notes/Global Threat.md</guid><pubDate>Thu, 10 Apr 2025 20:23:50 GMT</pubDate></item><item><title><![CDATA[Private - Estria's Crown]]></title><description><![CDATA[ 
+ <br>DM Guide: Estria’s Crown<br>Estria’s Crown is more than Aldamar’s capital—it’s a stage for courtly intrigue, secret plots, and divine mysteries. Beneath the pristine marble and noble decorum lies a churning web of ambition, lost relics, guild rivalries, and arcane dangers waiting to be uncovered.<br><br><br>
+<br>High Counselor Renwalt subtly manipulates noble allegiances while keeping the King isolated.<br>
+
+<br>The Merchant’s Guild, led by Envar Lysgrain, uses economic leverage to push its agendas in court.<br>
+
+<br>Spymaster Lady Celindra watches every player with quiet intensity, her own motives unreadable.<br>
+
+<br>Noble Houses vie for succession influence amid King Tristram’s aging reign.<br>
+
+<br>The Iron Vanguard under Alric Varn remains loyal, but overstretched and unaware of conspiracies under their nose.<br>
+
+<br><br>
+<br>Camden Vaults run below the Lyceum and the Archives, sealed since the fall of the Empire.<br>
+
+<br>The Quiet Bell is occasionally visited by spirits or divine omens—Balnis’s clergy may conceal more than they reveal.<br>
+
+<br>A secret Thieves’ Guild enclave operates behind the façade of a candle shop near the Dockline, coordinated with agents in Forgegate Row.<br>
+
+<br>Moonlight Fountain responds strangely to moon phases and celestial alignments—linked to the Astral Nexus.<br>
+
+<br><br>
+<br>Leylines run directly through Estria’s Crown. Powerful spells and Camden relics sometimes resonate unpredictably here.<br>
+
+<br>The Orb of Insight atop the Lyceum pulses during storms or cosmic events—used in secret scrying rituals.<br>
+
+<br><br>
+<br>A noble’s son disappears after visiting the Quiet Bell. Rumors point to forbidden rituals beneath the temple.
+<br>A merchant lord is found dead—smiling, untouched—after visiting the Moonlight Fountain. The Guild wants answers.
+<br>An arcane anomaly triggers in the Vault of Ink, sealing off part of the Scholar’s Circle and exposing a forgotten Camden relic.
+<br>A coded message reaches the Silver Lark Inn, seeking adventurers to “uncover the Crown's second heart.”
+<br><br>
+<br>Navigating conflicting noble requests.<br>
+
+<br>Getting an audience with the King amid rising tensions.<br>
+
+<br>Avoiding detection by Lady Celindra or Renwalt’s agents.<br>
+
+<br>Dealing with corruption in Hearthgate’s guard posts.<br>
+
+<br>Estria’s Crown is the perfect setting for court drama, political maneuvering, secret histories, and heroic choices with kingdom-spanning consequences. Use it as your players’ touchstone—or as the chessboard upon which their fates are played.]]></description><link>private-notes/private-estria's-crown.html</link><guid isPermaLink="false">Private Notes/Private - Estria's Crown.md</guid><pubDate>Fri, 11 Apr 2025 14:36:21 GMT</pubDate></item><item><title><![CDATA[Private - Holden's Keep]]></title><description><![CDATA[ 
+ <br>A day’s ride from <a data-href="Valith" href="kingdoms/aldamar/valith.html" class="internal-link" target="_self" rel="noopener nofollow">Valith</a> stands Holden’s Keep, the seat of <a data-href="Lord Wylan Holden" href="important-npcs/lord-wylan-holden.html" class="internal-link" target="_self" rel="noopener nofollow">Lord Wylan Holden</a>. Though not cruel by nature, Lord Wylan levies heavy taxes on Valith to satisfy his own obligations to <a data-href="King Tristram Branwyne" href="important-npcs/king-tristram-branwyne.html" class="internal-link" target="_self" rel="noopener nofollow">King Tristram Branwyne</a>. This has incited a simmering resentment among the townsfolk, who see their constant toil rewarded with burdensome demands rather than support or infrastructure. Holden himself must walk a fine line between pleasing the crown and quelling unrest on his own doorstep.<br>The keep’s walls are thick stone, reflecting the lord’s drive to maintain authority in uncertain times. Soldiers patrol the battlements, though their true loyalties often shift with bribes or rumors of better pay from rival nobles. Should a larger conflict break out in Aldamar, Holden’s Keep could easily become a flashpoint where the pent-up anger of the local peasantry finally explodes.<br>DM Guide: Holden’s Keep<br>Holden’s Keep is more than a border stronghold—it’s a pressure cooker. Here, political obligation, rural resentment, and shifting loyalties collide under the watchful eye of Lord Wylan Holden.<br><br><br>
+<br>Lord Wylan Holden is caught between loyalty to King Tristram and growing discontent in Valith.<br>
+
+<br>Local Soldiers are underpaid and frequently bribed by traveling merchants, rival nobles, or even the Thieves’ Guild to overlook contraband or movement.<br>
+
+<br>Tax Collectors employed by Holden are increasingly resented in nearby villages, occasionally requiring escorts to complete their work.<br>
+
+<br><br>
+<br>Peasant Frustration: Townsfolk in Valith and surrounding farms whisper of rebellion. Wylan tries to suppress these voices with diplomacy—barely.<br>
+
+<br>Mercenary Influence: Several of Holden’s officers once served in free companies. They remain loyal for now, but gold talks.<br>
+
+<br>Noble Pressure: Other houses whisper that Wylan’s taxes are excessive, hoping to undermine his influence and draw away his vassals.<br>
+
+<br><br>
+<br>Bribed Watchmen may provide secret access to the keep or its armory.<br>
+
+<br>A smuggler’s route used to bypass taxes connects Valith to an underground wine cellar beneath the keep’s western edge.<br>
+
+<br>Hidden missives in Lord Holden’s study suggest he is considering reaching out to the Merchant’s Guild for protection—without royal approval.<br>
+
+<br><br>
+<br>A suspicious tax collector has gone missing, last seen near Shadowpass Woods.
+<br>A mutiny brews in the barracks, led by a former mercenary who claims Wylan’s rule is no longer legitimate.
+<br>A traveling bard claims to know of a plot to assassinate Wylan, but demands sanctuary and a hefty price for the details.
+<br>A secret shipment of relics from the Camden Empire is being stored here under false pretenses.
+<br><br>Should larger conflict erupt in Aldamar, Holden’s Keep could become:<br>
+<br>A rebel foothold.<br>
+
+<br>A staging ground for loyalist campaigns.<br>
+
+<br>A battlefield where the fate of southern Aldamar is decided.<br>
+
+<br>Use Holden’s Keep as a place of uneasy alliances, risky favors, and strategic power plays. Whether the players side with Wylan, the rebels, or a faction all their own—it’s a powder keg waiting to be lit.]]></description><link>private-notes/private-holden's-keep.html</link><guid isPermaLink="false">Private Notes/Private - Holden's Keep.md</guid><pubDate>Fri, 11 Apr 2025 14:41:03 GMT</pubDate></item><item><title><![CDATA[Private - Valith]]></title><description><![CDATA[ 
+ <br><br>Valith appears idyllic—but scratch the surface, and deep tensions and secret dealings emerge.<br>
+<br>Holden’s Pressure: Lord Wylan Holden demands heavy taxes. Though Valith grumbles, most fear open rebellion. Roric is caught in the middle, trying to keep peace while protecting his people.<br>
+
+<br>Smuggling &amp; Shadows: The Temple of Lysa houses a Thieves’ Guild outpost. Sister Evelyn plays the part of the oblivious cleric, but she manages a subtle network of fences and spies. Contraband relics from Shadowpass Woods are quietly moved through the town.<br>
+
+<br>Shadowpass Unveiled: Strange sightings (e.g., Camden runes on trees, twisted beasts, ancient magical "echoes") suggest something stirs deep in the woods. Artifacts from the Camden Empire are sometimes found—some still active.<br>
+
+<br><br><br>
+<br>Mayor Roric Garent<br>
+Walks a moral tightrope between loyalty to Holden and protection of his people. Would quietly aid the party if they act for Valith's interests. Dislikes nobles but respects power and fairness.<br>
+
+<br>Harlan Ironfoot<br>
+Excellent source of quest hooks and legendary rumors. Knows a lot about relics but keeps quiet unless trust is earned. Secretly crafting a magical item for a hidden cause.<br>
+
+<br>Sister Evelyn<br>
+Appears pious and harmless. In reality, she oversees the local Thieves’ Guild cell. Often uses religious events as cover for smuggling or passing intel. She may eventually become an ally—or complication.<br>
+
+<br><br><br>
+<br>“Sungrain Heist” – A trade caravan vanishes en route to Estria’s Crown. Was it raiders… or someone trying to undercut Valith’s ale trade?<br>
+
+<br>“The Bell Beneath the Temple” – Someone hears a strange ringing under the temple at night. It’s a hidden relic from Camden’s time—a divine ward slowly failing.<br>
+
+<br>“Missing in the Woods” – A traveler goes missing in Shadowpass. Their last stop? Talking to Harlan about an “iron door in the dark.”
+]]></description><link>private-notes/private-valith.html</link><guid isPermaLink="false">Private Notes/Private - Valith.md</guid><pubDate>Fri, 11 Apr 2025 14:48:25 GMT</pubDate></item><item><title><![CDATA[Fateforged Chronicles]]></title><description><![CDATA[ 
+ ]]></description><link>the-chronicles/fateforged/fateforged-chronicles.html</link><guid isPermaLink="false">The Chronicles/Fateforged/Fateforged Chronicles.md</guid><pubDate>Thu, 10 Apr 2025 16:54:22 GMT</pubDate></item><item><title><![CDATA[The Chronicles]]></title><description><![CDATA[ 
+ <br>]]></description><link>the-chronicles/the-chronicles.html</link><guid isPermaLink="false">The Chronicles/The Chronicles.md</guid><pubDate>Thu, 10 Apr 2025 16:54:59 GMT</pubDate></item><item><title><![CDATA[Welcome to Estria]]></title><description><![CDATA[ 
  <br>Estria is a realm shaped by the lingering shadows of a lost empire, the Camden Empire, whose arcane might was undone by a catastrophic curse. In the centuries since that empire’s dissolution, the people of Estria have sought to rebuild and move forward, all while wrestling with mysterious ruins and artifacts left behind by Camden’s fall. Magic remains potent but rarely seen, and those who manage to tap its power are often viewed with a mixture of awe and concern. Despite the uncertainty of these times, Estria endures as a land of rolling fields, towering mountains, dense forests, and hidden wonders waiting to be rediscovered.<br><br><br><br><br><br>Will be updated later<br><br><br><br><br>]]></description><link>welcome-to-estria.html</link><guid isPermaLink="false">Welcome to Estria.md</guid><pubDate>Fri, 11 Apr 2025 15:06:32 GMT</pubDate></item></channel></rss>

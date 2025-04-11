@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Averyn-Map</title>
-        <base href="./" />
-        <meta id="root-path" root-path="./" />
+        <title>Holden's Keep</title>
+        <base href="../../" />
+        <meta id="root-path" root-path="../../" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0" />
         <meta charset="UTF-8" />
-        <meta name="description" content="Dragonlance - Averyn-Map" />
-        <meta property="og:title" content="Averyn-Map" />
-        <meta property="og:description" content="Dragonlance - Averyn-Map" />
+        <meta name="description" content="Estrian-Chronicles - Holden's Keep" />
+        <meta property="og:title" content="Holden's Keep" />
+        <meta property="og:description" content="Estrian-Chronicles - Holden's Keep" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="averyn-map.html" />
+        <meta property="og:url" content="kingdoms/aldamar/holden's-keep.html" />
         <meta property="og:image" content="undefined" />
-        <meta property="og:site_name" content="Dragonlance" />
+        <meta property="og:site_name" content="Estrian-Chronicles" />
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="leaflet-style.css" />
         <script async="" id="webpage-script" src="lib/scripts/webpage.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script>
-        <script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="pixi-script" src="lib/scripts/pixi.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <link rel="icon" href="lib/media/favicon.png" />
-        <script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <style>
             body {
                 --line-width: 40em;
@@ -313,17 +303,13 @@
             }
         </script>
         <link rel="stylesheet" href="lib/styles/obsidian.css" />
-        <link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/other-plugins.css" /></noscript>
         <link rel="stylesheet" href="lib/styles/theme.css" />
-        <link rel="preload" href="lib/styles/ansalon-characters.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/ansalon-characters.css" /></noscript>
-        <link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css" /></noscript>
+        <link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css" /></noscript>
         <link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="lib/styles/main-styles.css" /></noscript>
     </head>
-    <body class="publish css-settings-manager theme-light show-inline-title sizing-readable check-color check-bg wotc-beyond">
+    <body class="publish css-settings-manager theme-light show-inline-title show-ribbon check-color check-bg wotc-beyond">
         <script defer="">
             let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
             "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")),
@@ -355,13 +341,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="sidebar-content">
-                    <div class="search-input-container">
-                        <input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..." />
-                        <div class="search-input-clear-button" aria-label="Clear search"></div>
-                    </div>
-                    <include src="lib/html/file-tree.html"></include>
-                </div>
+                <div class="sidebar-content"><include src="lib/html/file-tree.html"></include></div>
                 <script defer="">
                     let ls = document.querySelector(".sidebar-left");
                     ls.classList.add("is-collapsed");
@@ -373,10 +353,172 @@
                 <div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width">
                     <style id="MJX-CHTML-styles"></style>
                     <div class="markdown-preview-sizer markdown-preview-section">
-                        <h1 class="page-title heading inline-title" id="Averyn-Map"><p>Averyn-Map</p></h1>
-                        <div id="map"></div>
-                        <script src="leaflet-script.js"></script>
-                        <div class="mod-footer"></div>
+                        <h1 class="page-title heading inline-title" id="Holden's Keep">Holden's Keep</h1>
+                        <div class="el-p">
+                            <p dir="auto">
+                                Just a day’s ride from the crossroads town of Valith rises <strong>Holden’s Keep</strong>, a formidable stone fortress seated atop a low ridge. It is the ancestral seat of <strong>Lord Wylan Holden</strong>,
+                                a noble sworn to the crown of Aldamar. Towering walls, broad courtyards, and ever-watchful sentries mark this keep as a place of discipline, strategy, and leadership.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                Though its banners bear the symbol of House Holden—a black stag on silver—its halls carry the scent of uncertainty. The keep serves not only as a military outpost but also as an administrative hub for the
+                                surrounding farmlands.
+                            </p>
+                        </div>
+                        <div class="el-hr"><hr /></div>
+                        <div class="el-h2 heading-wrapper">
+                            <h2 data-heading="Key Features" dir="auto" class="heading" id="Key_Features">
+                                <div class="heading-collapse-indicator collapse-indicator collapse-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="svg-icon right-triangle"
+                                    >
+                                        <path d="M3 8L12 17L21 8"></path>
+                                    </svg>
+                                </div>
+                                Key Features
+                            </h2>
+                            <div class="heading-children">
+                                <div class="el-h3 heading-wrapper">
+                                    <h3 data-heading="The Keep Walls" dir="auto" class="heading" id="The_Keep_Walls">
+                                        <div class="heading-collapse-indicator collapse-indicator collapse-icon">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="svg-icon right-triangle"
+                                            >
+                                                <path d="M3 8L12 17L21 8"></path>
+                                            </svg>
+                                        </div>
+                                        The Keep Walls
+                                    </h3>
+                                    <div class="heading-children">
+                                        <div class="el-ul">
+                                            <ul>
+                                                <li data-line="0" dir="auto">Solid stone ramparts with thick parapets.<br /></li>
+                                                <li data-line="2" dir="auto">Armed patrols from dawn to dusk, visible from miles away.<br /></li>
+                                                <li data-line="4" dir="auto">Defensive ballistae and signal torches positioned at the towers.<br /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="el-h3 heading-wrapper">
+                                    <h3 data-heading="The High Courtyard" dir="auto" class="heading" id="The_High_Courtyard">
+                                        <div class="heading-collapse-indicator collapse-indicator collapse-icon">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="svg-icon right-triangle"
+                                            >
+                                                <path d="M3 8L12 17L21 8"></path>
+                                            </svg>
+                                        </div>
+                                        The High Courtyard
+                                    </h3>
+                                    <div class="heading-children">
+                                        <div class="el-ul">
+                                            <ul>
+                                                <li data-line="0" dir="auto"><strong>The Hall of Oaths:</strong> Lord Holden’s audience chamber; used for announcements, disputes, and diplomatic guests.<br /></li>
+                                                <li data-line="2" dir="auto"><strong>Knight’s Barracks:</strong> Home to the local garrison, with a training yard open to sparring and drills.<br /></li>
+                                                <li data-line="4" dir="auto"><strong>Rider’s Gate:</strong> The main entrance to the keep, with watchtowers and reinforced gates.<br /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="el-h3 heading-wrapper">
+                                    <h3 data-heading="Inner Buildings" dir="auto" class="heading" id="Inner_Buildings">
+                                        <div class="heading-collapse-indicator collapse-indicator collapse-icon">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="svg-icon right-triangle"
+                                            >
+                                                <path d="M3 8L12 17L21 8"></path>
+                                            </svg>
+                                        </div>
+                                        Inner Buildings
+                                    </h3>
+                                    <div class="heading-children">
+                                        <div class="el-ul">
+                                            <ul>
+                                                <li data-line="0" dir="auto"><strong>Lord Holden’s Study:</strong> Decorated with scrolls, ledgers, and old heirlooms of House Holden.<br /></li>
+                                                <li data-line="2" dir="auto"><strong>Chapel of Arhel:</strong> A modest place of worship and lawkeeping.<br /></li>
+                                                <li data-line="4" dir="auto"><strong>Servants’ Quarters &amp; Storerooms:</strong> Housing for attendants, stewards, and quartermasters.<br /></li>
+                                            </ul>
+                                        </div>
+                                        <div class="el-hr"><hr /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="el-h2 heading-wrapper">
+                            <h2 data-heading="Life Under the Lord" dir="auto" class="heading" id="Life_Under_the_Lord">
+                                <div class="heading-collapse-indicator collapse-indicator collapse-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="svg-icon right-triangle"
+                                    >
+                                        <path d="M3 8L12 17L21 8"></path>
+                                    </svg>
+                                </div>
+                                Life Under the Lord
+                            </h2>
+                            <div class="heading-children">
+                                <div class="el-p">
+                                    <p dir="auto">
+                                        Lord Wylan Holden is respected but not beloved. He commands with a sense of duty, not warmth. His taxing policies strain relations with nearby Valith, but few doubt his commitment to maintaining
+                                        order. Travelers passing through Holden’s Keep can expect:
+                                    </p>
+                                </div>
+                                <div class="el-ul">
+                                    <ul>
+                                        <li data-line="0" dir="auto">Clean, organized barracks or guest rooms (if allowed entry).<br /></li>
+                                        <li data-line="2" dir="auto">Well-stocked armories and basic smithing services.<br /></li>
+                                        <li data-line="4" dir="auto">Limited but fair access to supplies for coin or favor.<br /></li>
+                                    </ul>
+                                </div>
+                                <div class="el-p"><p dir="auto">Despite its harsh exterior, Holden’s Keep stands as a key bulwark protecting southern Aldamar—and a waypoint for those traveling deeper into the kingdom.</p></div>
+                                <div class="mod-footer mod-ui"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -405,10 +547,60 @@
                         <div class="tree-scroll-area tree-item-children nav-folder-children">
                             <div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div>
                             <div class="tree-item" data-depth="1">
-                                <a class="tree-link" href="averyn-map.html#Averyn-Map">
-                                    <div class="tree-item-contents heading-link" heading-name="Averyn-Map"><span class="tree-item-title">Averyn-Map</span></div>
+                                <a class="tree-link" href="kingdoms/aldamar/holden's-keep.html#Holden's Keep">
+                                    <div class="tree-item-contents heading-link" heading-name="Holden's Keep"><span class="tree-item-title">Holden's Keep</span></div>
                                 </a>
-                                <div class="tree-item-children nav-folder-children"></div>
+                                <div class="tree-item-children nav-folder-children">
+                                    <div class="tree-item mod-collapsible" data-depth="2">
+                                        <a class="tree-link" href="kingdoms/aldamar/holden's-keep.html#Key_Features">
+                                            <div class="tree-item-contents heading-link" heading-name="Key Features">
+                                                <div class="collapse-icon">
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="24"
+                                                        height="24"
+                                                        viewBox="0 0 24 24"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        class="svg-icon right-triangle"
+                                                    >
+                                                        <path d="M3 8L12 17L21 8"></path>
+                                                    </svg>
+                                                </div>
+                                                <span class="tree-item-title">Key Features</span>
+                                            </div>
+                                        </a>
+                                        <div class="tree-item-children nav-folder-children">
+                                            <div class="tree-item" data-depth="3">
+                                                <a class="tree-link" href="kingdoms/aldamar/holden's-keep.html#The_Keep_Walls">
+                                                    <div class="tree-item-contents heading-link" heading-name="The Keep Walls"><span class="tree-item-title">The Keep Walls</span></div>
+                                                </a>
+                                                <div class="tree-item-children nav-folder-children"></div>
+                                            </div>
+                                            <div class="tree-item" data-depth="3">
+                                                <a class="tree-link" href="kingdoms/aldamar/holden's-keep.html#The_High_Courtyard">
+                                                    <div class="tree-item-contents heading-link" heading-name="The High Courtyard"><span class="tree-item-title">The High Courtyard</span></div>
+                                                </a>
+                                                <div class="tree-item-children nav-folder-children"></div>
+                                            </div>
+                                            <div class="tree-item" data-depth="3">
+                                                <a class="tree-link" href="kingdoms/aldamar/holden's-keep.html#Inner_Buildings">
+                                                    <div class="tree-item-contents heading-link" heading-name="Inner Buildings"><span class="tree-item-title">Inner Buildings</span></div>
+                                                </a>
+                                                <div class="tree-item-children nav-folder-children"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tree-item" data-depth="2">
+                                        <a class="tree-link" href="kingdoms/aldamar/holden's-keep.html#Life_Under_the_Lord">
+                                            <div class="tree-item-contents heading-link" heading-name="Life Under the Lord"><span class="tree-item-title">Life Under the Lord</span></div>
+                                        </a>
+                                        <div class="tree-item-children nav-folder-children"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Averyn-Map</title>
-        <base href="./" />
-        <meta id="root-path" root-path="./" />
+        <title>The Scorched Waste</title>
+        <base href="../../" />
+        <meta id="root-path" root-path="../../" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0" />
         <meta charset="UTF-8" />
-        <meta name="description" content="Dragonlance - Averyn-Map" />
-        <meta property="og:title" content="Averyn-Map" />
-        <meta property="og:description" content="Dragonlance - Averyn-Map" />
+        <meta name="description" content="Estrian-Chronicles - The Scorched Waste" />
+        <meta property="og:title" content="The Scorched Waste" />
+        <meta property="og:description" content="Estrian-Chronicles - The Scorched Waste" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="averyn-map.html" />
+        <meta property="og:url" content="kingdoms/exotic-lands/the-scorched-waste.html" />
         <meta property="og:image" content="undefined" />
-        <meta property="og:site_name" content="Dragonlance" />
+        <meta property="og:site_name" content="Estrian-Chronicles" />
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="leaflet-style.css" />
         <script async="" id="webpage-script" src="lib/scripts/webpage.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script>
-        <script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="pixi-script" src="lib/scripts/pixi.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <link rel="icon" href="lib/media/favicon.png" />
-        <script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <style>
             body {
                 --line-width: 40em;
@@ -313,17 +303,13 @@
             }
         </script>
         <link rel="stylesheet" href="lib/styles/obsidian.css" />
-        <link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/other-plugins.css" /></noscript>
         <link rel="stylesheet" href="lib/styles/theme.css" />
-        <link rel="preload" href="lib/styles/ansalon-characters.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/ansalon-characters.css" /></noscript>
-        <link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css" /></noscript>
+        <link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css" /></noscript>
         <link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="lib/styles/main-styles.css" /></noscript>
     </head>
-    <body class="publish css-settings-manager theme-light show-inline-title sizing-readable check-color check-bg wotc-beyond">
+    <body class="publish css-settings-manager theme-light show-inline-title show-ribbon check-color check-bg wotc-beyond">
         <script defer="">
             let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
             "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")),
@@ -355,13 +341,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="sidebar-content">
-                    <div class="search-input-container">
-                        <input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..." />
-                        <div class="search-input-clear-button" aria-label="Clear search"></div>
-                    </div>
-                    <include src="lib/html/file-tree.html"></include>
-                </div>
+                <div class="sidebar-content"><include src="lib/html/file-tree.html"></include></div>
                 <script defer="">
                     let ls = document.querySelector(".sidebar-left");
                     ls.classList.add("is-collapsed");
@@ -373,10 +353,24 @@
                 <div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width">
                     <style id="MJX-CHTML-styles"></style>
                     <div class="markdown-preview-sizer markdown-preview-section">
-                        <h1 class="page-title heading inline-title" id="Averyn-Map"><p>Averyn-Map</p></h1>
-                        <div id="map"></div>
-                        <script src="leaflet-script.js"></script>
-                        <div class="mod-footer"></div>
+                        <h1 class="page-title heading inline-title" id="The Scorched Waste">The Scorched Waste</h1>
+                        <div class="el-p">
+                            <p dir="auto">
+                                Beyond Aldamar’s borders—Cut off by a rugged mountain range—lies a desolate land dominated by a vast, unforgiving desert known simply as the <strong>Scorched Waste</strong>. Long, scorching days and sudden,
+                                vicious sandstorms discourage most travelers from even attempting the journey. Only nomadic tribes and hardened adventurers dare to wander its dun-colored dunes. The windblown sand conceals the remnants of an
+                                age-old civilization, rumored to be connected to the fallen Camden Empire. Ruined spires poke through the shifting terrain, their inscriptions half buried, speaking of a grand city swallowed by the desert’s
+                                wrath.
+                            </p>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto">
+                                Some travelers whisper that the Camden Empire once exiled its most dangerous sorcerers to this desert, forcing them to hide arcane secrets that could threaten the entire world. A persistent rumor suggests
+                                that hidden deep under the endless sands, within eroded temples carved from black obsidian, lie the empire’s “darkest secrets”—relics or spells so catastrophic that even Camden’s mightiest wizards feared to
+                                use them. Few believe these tales outright; the majority dismiss them as stories spun by desert nomads to frighten foolish treasure hunters. Still, any expedition daring enough to penetrate the storm-wracked
+                                dunes must contend not only with blistering winds and scorching sun, but also with the possibility that something far worse stirs beneath their feet.
+                            </p>
+                        </div>
+                        <div class="mod-footer mod-ui"></div>
                     </div>
                 </div>
             </div>
@@ -405,8 +399,8 @@
                         <div class="tree-scroll-area tree-item-children nav-folder-children">
                             <div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div>
                             <div class="tree-item" data-depth="1">
-                                <a class="tree-link" href="averyn-map.html#Averyn-Map">
-                                    <div class="tree-item-contents heading-link" heading-name="Averyn-Map"><span class="tree-item-title">Averyn-Map</span></div>
+                                <a class="tree-link" href="kingdoms/exotic-lands/the-scorched-waste.html#The Scorched Waste">
+                                    <div class="tree-item-contents heading-link" heading-name="The Scorched Waste"><span class="tree-item-title">The Scorched Waste</span></div>
                                 </a>
                                 <div class="tree-item-children nav-folder-children"></div>
                             </div>

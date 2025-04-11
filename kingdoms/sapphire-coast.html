@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Averyn-Map</title>
-        <base href="./" />
-        <meta id="root-path" root-path="./" />
+        <title>Sapphire Coast</title>
+        <base href="../" />
+        <meta id="root-path" root-path="../" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0" />
         <meta charset="UTF-8" />
-        <meta name="description" content="Dragonlance - Averyn-Map" />
-        <meta property="og:title" content="Averyn-Map" />
-        <meta property="og:description" content="Dragonlance - Averyn-Map" />
+        <meta name="description" content="Estrian-Chronicles - Sapphire Coast" />
+        <meta property="og:title" content="Sapphire Coast" />
+        <meta property="og:description" content="Estrian-Chronicles - Sapphire Coast" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="averyn-map.html" />
+        <meta property="og:url" content="kingdoms/sapphire-coast.html" />
         <meta property="og:image" content="undefined" />
-        <meta property="og:site_name" content="Dragonlance" />
+        <meta property="og:site_name" content="Estrian-Chronicles" />
         <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml" />
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="leaflet-style.css" />
         <script async="" id="webpage-script" src="lib/scripts/webpage.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script>
-        <script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="pixi-script" src="lib/scripts/pixi.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
-        <script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <link rel="icon" href="lib/media/favicon.png" />
-        <script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload='this.onload=null;this.setAttribute("loaded", "true")'></script>
         <style>
             body {
                 --line-width: 40em;
@@ -313,17 +303,13 @@
             }
         </script>
         <link rel="stylesheet" href="lib/styles/obsidian.css" />
-        <link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/other-plugins.css" /></noscript>
         <link rel="stylesheet" href="lib/styles/theme.css" />
-        <link rel="preload" href="lib/styles/ansalon-characters.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/ansalon-characters.css" /></noscript>
-        <link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css" /></noscript>
+        <link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css" /></noscript>
         <link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="lib/styles/main-styles.css" /></noscript>
     </head>
-    <body class="publish css-settings-manager theme-light show-inline-title sizing-readable check-color check-bg wotc-beyond">
+    <body class="publish css-settings-manager theme-light show-inline-title show-ribbon check-color check-bg wotc-beyond">
         <script defer="">
             let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
             "dark" == theme ? (document.body.classList.add("theme-dark"), document.body.classList.remove("theme-light")) : (document.body.classList.add("theme-light"), document.body.classList.remove("theme-dark")),
@@ -355,13 +341,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="sidebar-content">
-                    <div class="search-input-container">
-                        <input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..." />
-                        <div class="search-input-clear-button" aria-label="Clear search"></div>
-                    </div>
-                    <include src="lib/html/file-tree.html"></include>
-                </div>
+                <div class="sidebar-content"><include src="lib/html/file-tree.html"></include></div>
                 <script defer="">
                     let ls = document.querySelector(".sidebar-left");
                     ls.classList.add("is-collapsed");
@@ -373,10 +353,29 @@
                 <div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width">
                     <style id="MJX-CHTML-styles"></style>
                     <div class="markdown-preview-sizer markdown-preview-section">
-                        <h1 class="page-title heading inline-title" id="Averyn-Map"><p>Averyn-Map</p></h1>
-                        <div id="map"></div>
-                        <script src="leaflet-script.js"></script>
-                        <div class="mod-footer"></div>
+                        <h1 class="page-title heading inline-title" id="Sapphire Coast">Sapphire Coast</h1>
+                        <div class="el-p">
+                            <p dir="auto"><strong>"Where every harbor hides a secret, and every coin bears two faces."</strong></p>
+                        </div>
+                        <div class="el-p"><p dir="auto">South of Aldamar lies the glittering Sapphire Coast, a realm of sun-drenched cliffs, cosmopolitan cities, and thriving trade empires. Riches and risk go hand in hand here.</p></div>
+                        <div class="el-ul">
+                            <ul>
+                                <li data-line="0" dir="auto"><strong>Merchant Monarchs:</strong> Each city-state is ruled by merchant lords or trade syndicates.<br /></li>
+                                <li data-line="2" dir="auto"><strong>Intrigue &amp; Espionage:</strong> Assassinations, blackmail, and relic-smuggling are all part of doing business.<br /></li>
+                                <li data-line="4" dir="auto"><strong>Camden Relic Market:</strong> Many magical artifacts from Camden’s fall end up here—auctioned or weaponized.<br /></li>
+                            </ul>
+                        </div>
+                        <div class="el-p">
+                            <p dir="auto"><strong>Places of Note:</strong></p>
+                        </div>
+                        <div class="el-ul">
+                            <ul>
+                                <li data-line="0" dir="auto"><em>Solavar:</em> The jeweled crown of the coast, ruled by a child prince surrounded by scheming regents.<br /></li>
+                                <li data-line="2" dir="auto"><em>Port Virelle:</em> A pirate-friendly port that reveres Nimara through sea duels and storm festivals.<br /></li>
+                                <li data-line="4" dir="auto"><em>Glassrest:</em> A city of crystal towers and ocean-side magic schools.</li>
+                            </ul>
+                        </div>
+                        <div class="mod-footer mod-ui"></div>
                     </div>
                 </div>
             </div>
@@ -405,8 +404,8 @@
                         <div class="tree-scroll-area tree-item-children nav-folder-children">
                             <div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div>
                             <div class="tree-item" data-depth="1">
-                                <a class="tree-link" href="averyn-map.html#Averyn-Map">
-                                    <div class="tree-item-contents heading-link" heading-name="Averyn-Map"><span class="tree-item-title">Averyn-Map</span></div>
+                                <a class="tree-link" href="kingdoms/sapphire-coast.html#Sapphire Coast">
+                                    <div class="tree-item-contents heading-link" heading-name="Sapphire Coast"><span class="tree-item-title">Sapphire Coast</span></div>
                                 </a>
                                 <div class="tree-item-children nav-folder-children"></div>
                             </div>
