@@ -1,63 +1,12 @@
 {
   "vaultName": "Estrian-Chronicles",
-  "lastExport": 1744388076736,
+  "lastExport": 1744388770004,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon check-color check-bg wotc-beyond",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "Important Lore/Pantheon.md",
-    "Important Lore/Pantheon Dynamics.md",
-    "Important Lore/The People of Estria.md",
-    "Important NPCs/NPC-pictures/Alric.png",
-    "Important NPCs/NPC-pictures/Celindra.png",
-    "Important NPCs/NPC-pictures/Envar.png",
-    "Important NPCs/NPC-pictures/Evelyn.png",
-    "Important NPCs/NPC-pictures/Harlan.png",
-    "Important NPCs/NPC-pictures/Kadrin.png",
-    "Important NPCs/NPC-pictures/Kelthira.png",
-    "Important NPCs/NPC-pictures/Renwalt.png",
-    "Important NPCs/NPC-pictures/Roric.png",
-    "Important NPCs/NPC-pictures/Serenya.png",
-    "Important NPCs/NPC-pictures/Tristram.png",
-    "Important NPCs/NPC-pictures/Veric.png",
-    "Important NPCs/NPC-pictures/Wylan.png",
-    "Important NPCs/Alric Varn.md",
-    "Important NPCs/Celindra Malloray.md",
-    "Important NPCs/Envar Lysgrain.md",
-    "Important NPCs/Harlan Iornfoot.md",
-    "Important NPCs/Important NPCs.md",
-    "Important NPCs/Kadrin Marral.md",
-    "Important NPCs/Kelthira Merrow.md",
-    "Important NPCs/King Tristram Branwyne.md",
-    "Important NPCs/Lord Wylan Holden.md",
-    "Important NPCs/Mayor Roric Garent.md",
-    "Important NPCs/Renwalt Darriven.md",
-    "Important NPCs/Serenya Valcairn.md",
-    "Important NPCs/Sister Evelyn.md",
-    "Important NPCs/Veric.md",
-    "Kingdoms/Aldamar/Aldamar.md",
-    "Kingdoms/Aldamar/Estria's Crown.md",
-    "Kingdoms/Aldamar/Holden's Keep.md",
     "Kingdoms/Aldamar/Valith.md",
-    "Kingdoms/Exotic Lands/Exotic Lands.md",
-    "Kingdoms/Exotic Lands/The Astral Nexus.md",
-    "Kingdoms/Exotic Lands/The Scorched Waste.md",
-    "Kingdoms/Exotic Lands/The Shadow Mirror.md",
-    "Kingdoms/Dusk Lands.md",
-    "Kingdoms/Eldertide Isles.md",
-    "Kingdoms/Frozen Expanse.md",
-    "Kingdoms/Kingdoms of Estria.md",
-    "Kingdoms/Sapphire Coast.md",
-    "Private Notes/Adventure Hooks in Valith.md",
-    "Private Notes/Aldamar threats.md",
-    "Private Notes/Global Threat.md",
-    "Private Notes/Private - Estria's Crown.md",
-    "Private Notes/Private - Holden's Keep.md",
-    "Private Notes/Private - Valith.md",
-    "The Chronicles/Fateforged/Fateforged Chronicles.md",
-    "The Chronicles/The Chronicles.md",
-    "Welcome to Estria.md",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -105,134 +54,128 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 723300,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1744388076736,
+      "modifiedTime": 1744388770004,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "Welcome to Estria.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 888,
-      "exportedPath": "welcome-to-estria.html",
-      "dependencies": []
-    },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 24337,
+      "modifiedTime": 1744388770004,
+      "sourceSize": 2262,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
@@ -314,336 +257,10 @@
       "exportedPath": "important-npcs/npc-pictures/veric.png",
       "dependencies": []
     },
-    "Important Lore/Pantheon.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 3987,
-      "exportedPath": "important-lore/pantheon.html",
-      "dependencies": []
-    },
-    "Important Lore/Pantheon Dynamics.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1077,
-      "exportedPath": "important-lore/pantheon-dynamics.html",
-      "dependencies": []
-    },
-    "Important Lore/The People of Estria.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 8512,
-      "exportedPath": "important-lore/the-people-of-estria.html",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Alric.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2237811,
-      "exportedPath": "important-npcs/npc-pictures/alric.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Celindra.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2613065,
-      "exportedPath": "important-npcs/npc-pictures/celindra.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Envar.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2272371,
-      "exportedPath": "important-npcs/npc-pictures/envar.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Evelyn.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 3117076,
-      "exportedPath": "important-npcs/npc-pictures/evelyn.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Harlan.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2561930,
-      "exportedPath": "important-npcs/npc-pictures/harlan.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Kadrin.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2623393,
-      "exportedPath": "important-npcs/npc-pictures/kadrin.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Kelthira.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1275725,
-      "exportedPath": "important-npcs/npc-pictures/kelthira.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Renwalt.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2333672,
-      "exportedPath": "important-npcs/npc-pictures/renwalt.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Roric.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2090229,
-      "exportedPath": "important-npcs/npc-pictures/roric.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Serenya.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2623385,
-      "exportedPath": "important-npcs/npc-pictures/serenya.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Tristram.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2485459,
-      "exportedPath": "important-npcs/npc-pictures/tristram.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Veric.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1700791,
-      "exportedPath": "important-npcs/npc-pictures/veric.png",
-      "dependencies": []
-    },
-    "Important NPCs/NPC-pictures/Wylan.png": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2672643,
-      "exportedPath": "important-npcs/npc-pictures/wylan.png",
-      "dependencies": []
-    },
-    "Important NPCs/Alric Varn.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 867,
-      "exportedPath": "important-npcs/alric-varn.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/alric.png"
-      ]
-    },
-    "Important NPCs/Celindra Malloray.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 784,
-      "exportedPath": "important-npcs/celindra-malloray.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/celindra.png"
-      ]
-    },
-    "Important NPCs/Envar Lysgrain.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 927,
-      "exportedPath": "important-npcs/envar-lysgrain.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/envar.png"
-      ]
-    },
-    "Important NPCs/Harlan Iornfoot.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1208,
-      "exportedPath": "important-npcs/harlan-iornfoot.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/harlan.png"
-      ]
-    },
-    "Important NPCs/Important NPCs.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 347,
-      "exportedPath": "important-npcs/important-npcs.html",
-      "dependencies": []
-    },
-    "Important NPCs/Kadrin Marral.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 779,
-      "exportedPath": "important-npcs/kadrin-marral.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/kadrin.png"
-      ]
-    },
-    "Important NPCs/Kelthira Merrow.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 924,
-      "exportedPath": "important-npcs/kelthira-merrow.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/kelthira.png"
-      ]
-    },
-    "Important NPCs/King Tristram Branwyne.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 869,
-      "exportedPath": "important-npcs/king-tristram-branwyne.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/tristram.png"
-      ]
-    },
-    "Important NPCs/Lord Wylan Holden.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 959,
-      "exportedPath": "important-npcs/lord-wylan-holden.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/wylan.png"
-      ]
-    },
-    "Important NPCs/Mayor Roric Garent.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1181,
-      "exportedPath": "important-npcs/mayor-roric-garent.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/roric.png"
-      ]
-    },
-    "Important NPCs/Renwalt Darriven.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 889,
-      "exportedPath": "important-npcs/renwalt-darriven.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/renwalt.png"
-      ]
-    },
-    "Important NPCs/Serenya Valcairn.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 845,
-      "exportedPath": "important-npcs/serenya-valcairn.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/serenya.png"
-      ]
-    },
-    "Important NPCs/Sister Evelyn.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 947,
-      "exportedPath": "important-npcs/sister-evelyn.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/evelyn.png"
-      ]
-    },
-    "Important NPCs/Veric.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1190,
-      "exportedPath": "important-npcs/veric.html",
-      "dependencies": [
-        "important-npcs/npc-pictures/veric.png"
-      ]
-    },
-    "Kingdoms/Aldamar/Aldamar.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2259,
-      "exportedPath": "kingdoms/aldamar/aldamar.html",
-      "dependencies": []
-    },
-    "Kingdoms/Aldamar/Estria's Crown.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2656,
-      "exportedPath": "kingdoms/aldamar/estria's-crown.html",
-      "dependencies": []
-    },
-    "Kingdoms/Aldamar/Holden's Keep.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2097,
-      "exportedPath": "kingdoms/aldamar/holden's-keep.html",
-      "dependencies": []
-    },
     "Kingdoms/Aldamar/Valith.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 3107,
+      "modifiedTime": 1744388770004,
+      "sourceSize": 3095,
       "exportedPath": "kingdoms/aldamar/valith.html",
-      "dependencies": []
-    },
-    "Kingdoms/Exotic Lands/Exotic Lands.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 86,
-      "exportedPath": "kingdoms/exotic-lands/exotic-lands.html",
-      "dependencies": []
-    },
-    "Kingdoms/Exotic Lands/The Astral Nexus.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1745,
-      "exportedPath": "kingdoms/exotic-lands/the-astral-nexus.html",
-      "dependencies": []
-    },
-    "Kingdoms/Exotic Lands/The Scorched Waste.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1405,
-      "exportedPath": "kingdoms/exotic-lands/the-scorched-waste.html",
-      "dependencies": []
-    },
-    "Kingdoms/Exotic Lands/The Shadow Mirror.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1615,
-      "exportedPath": "kingdoms/exotic-lands/the-shadow-mirror.html",
-      "dependencies": []
-    },
-    "Kingdoms/Dusk Lands.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 920,
-      "exportedPath": "kingdoms/dusk-lands.html",
-      "dependencies": []
-    },
-    "Kingdoms/Eldertide Isles.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 761,
-      "exportedPath": "kingdoms/eldertide-isles.html",
-      "dependencies": []
-    },
-    "Kingdoms/Frozen Expanse.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 770,
-      "exportedPath": "kingdoms/frozen-expanse.html",
-      "dependencies": []
-    },
-    "Kingdoms/Kingdoms of Estria.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 260,
-      "exportedPath": "kingdoms/kingdoms-of-estria.html",
-      "dependencies": []
-    },
-    "Kingdoms/Sapphire Coast.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 870,
-      "exportedPath": "kingdoms/sapphire-coast.html",
-      "dependencies": []
-    },
-    "Private Notes/Adventure Hooks in Valith.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1912,
-      "exportedPath": "private-notes/adventure-hooks-in-valith.html",
-      "dependencies": []
-    },
-    "Private Notes/Aldamar threats.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 1292,
-      "exportedPath": "private-notes/aldamar-threats.html",
-      "dependencies": []
-    },
-    "Private Notes/Global Threat.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 575,
-      "exportedPath": "private-notes/global-threat.html",
-      "dependencies": []
-    },
-    "Private Notes/Private - Estria's Crown.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2764,
-      "exportedPath": "private-notes/private-estria's-crown.html",
-      "dependencies": []
-    },
-    "Private Notes/Private - Holden's Keep.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 3395,
-      "exportedPath": "private-notes/private-holden's-keep.html",
-      "dependencies": []
-    },
-    "Private Notes/Private - Valith.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 2122,
-      "exportedPath": "private-notes/private-valith.html",
-      "dependencies": []
-    },
-    "The Chronicles/Fateforged/Fateforged Chronicles.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 0,
-      "exportedPath": "the-chronicles/fateforged/fateforged-chronicles.html",
-      "dependencies": []
-    },
-    "The Chronicles/The Chronicles.md": {
-      "modifiedTime": 1744388076736,
-      "sourceSize": 28,
-      "exportedPath": "the-chronicles/the-chronicles.html",
       "dependencies": []
     }
   }
